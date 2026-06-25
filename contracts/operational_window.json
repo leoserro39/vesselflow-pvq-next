@@ -1,0 +1,15 @@
+{
+  "date_format": "MM/DD/YYYY",
+  "cycle_rule": {
+    "cycle_start_day": 25,
+    "work_close_day": 25,
+    "operational_cutoff_day": 5,
+    "description": "Cycle starts on day 25 of the anchor month, closes on day 25 of the following month, and operational analysis cutoff is day 05 of the month after work close."
+  },
+  "example": {
+    "anchor_month": "January 2026",
+    "cycle_start": "01/25/2026",
+    "work_close": "02/25/2026",
+    "operational_cutoff": "03/05/2026"
+  }
+}

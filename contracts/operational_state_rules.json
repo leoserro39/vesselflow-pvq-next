@@ -1,0 +1,42 @@
+{
+  "final_statuses": {
+    "READY_FOR_NOMINATION": "All blocking technical/documentary gates are clear.",
+    "PRE_APT_WITH_TECHNICAL_REVIEW": "Candidate is operationally strong but technical release is required before automatic nomination.",
+    "PRE_APT_WITH_DOCUMENT_REVIEW": "Candidate can proceed but documents/certificates/insurance require review.",
+    "BLOCKED": "Nomination cannot proceed until correction or approved exception.",
+    "POLICY_DEPENDENT": "Depends on client/terminal/business policy.",
+    "NOT_APPLICABLE": "Field does not apply to the vessel profile or operation."
+  },
+  "release_model": {
+    "technical_release_owner": "NAVAL_CONSULTANT_REVIEW / MQP_REVIEW",
+    "management_exception_owner": "MANAGEMENT_ARBITRATION only for business/risk exceptions after technical assessment.",
+    "automatic_release_rule": "Never automatically release a critical field with pending technical/document review."
+  },
+  "madre_de_deus_recommended_state": {
+    "final_operational_state": "PRE_APT_WITH_TECHNICAL_REVIEW",
+    "can_proceed": true,
+    "can_nominate_candidate": true,
+    "automatic_nomination": false,
+    "technical_release_required": true,
+    "controlled_review_items": [
+      {
+        "field_id": "vessel.open_conditions_class",
+        "answer": "Sim",
+        "state": "NAVAL_REVIEW_REQUIRED",
+        "route": "NAVAL_CONSULTANT_REVIEW"
+      },
+      {
+        "field_id": "docs.itf_blue_card_expiry",
+        "answer": "06/17/2025",
+        "state": "EXPIRED_BEFORE_OPERATIONAL_WINDOW",
+        "route": "HUMAN_DATA_REVIEW"
+      },
+      {
+        "field_id": "docs.mooring_arrangement_plan",
+        "answer": "ABS",
+        "state": "REVIEW_REQUIRED",
+        "route": "HUMAN_DATA_REVIEW"
+      }
+    ]
+  }
+}
