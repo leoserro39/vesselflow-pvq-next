@@ -1,0 +1,3141 @@
+{
+  "state_id": "9feabb3fa9db4502907d290edc992df1",
+  "source_392": [
+    {
+      "canonical_field_id": "HOME-APPLICATION",
+      "canonical_key": "application",
+      "source_label": "Aplicacao",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "DPST",
+      "match_source": "manual_header"
+    },
+    {
+      "canonical_field_id": "HOME-FLAG",
+      "canonical_key": "flag",
+      "source_label": "Bandeira",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "Bahamas",
+      "match_source": "manual_header"
+    },
+    {
+      "canonical_field_id": "HOME-IMO",
+      "canonical_key": "imo",
+      "source_label": "IMO",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "4169250",
+      "match_source": "manual_header"
+    },
+    {
+      "canonical_field_id": "HOME-OPERATION-TYPE",
+      "canonical_key": "operation_type",
+      "source_label": "Tipo de Operacao",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "Offshore Loading",
+      "match_source": "manual_header"
+    },
+    {
+      "canonical_field_id": "HOME-SHIP",
+      "canonical_key": "ship",
+      "source_label": "Nome do Navio",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "MADRE DE DEUS",
+      "match_source": "manual_header"
+    },
+    {
+      "canonical_field_id": "HOME-VESSEL-TYPE",
+      "canonical_key": "vessel_type",
+      "source_label": "Tipo de Navio",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "Oil Tanker",
+      "match_source": "manual_header"
+    },
+    {
+      "canonical_field_id": "CV2-1-18-GENERAL_INFORMATIO-A8ED",
+      "canonical_key": "classification_society_a8ed",
+      "source_label": "Classification society:",
+      "source_trace_primary": "PVQ+Q88!B159",
+      "madre_value": "Jan 28, 2023",
+      "match_source": "Madre de Deus row 159"
+    },
+    {
+      "canonical_field_id": "CV2-1-18-SPECIFY_BROKER_OR-063D",
+      "canonical_key": "classification_society_063d",
+      "source_label": "Classification society:",
+      "source_trace_primary": "Q88 Rev.2!E66",
+      "madre_value": 1,
+      "match_source": "Madre de Deus row 66"
+    },
+    {
+      "canonical_field_id": "CV2-1-18A-GENERAL_INFORMATIO-EC02",
+      "canonical_key": "is_classification_society_an_iacs_member_ec02",
+      "source_label": "Is Classification Society an IACS member?",
+      "source_trace_primary": "PVQ+Q88 Clean!B119",
+      "madre_value": "Tel: 552121669224",
+      "match_source": "Madre de Deus row 119"
+    },
+    {
+      "canonical_field_id": "CV2-1-18A-SPECIFY_BROKER_OR-38D5",
+      "canonical_key": "is_classification_society_an_iacs_member_38d5",
+      "source_label": "Is Classification Society an IACS member?",
+      "source_trace_primary": "Q88 Rev.2!E67",
+      "madre_value": 1,
+      "match_source": "Madre de Deus row 67"
+    },
+    {
+      "canonical_field_id": "CV2-1-19-GENERAL_INFORMATIO-84D6",
+      "canonical_key": "class_notation_84d6",
+      "source_label": "Class notation:",
+      "source_trace_primary": "PVQ+Q88!B161",
+      "madre_value": "NO",
+      "match_source": "Madre de Deus row 161"
+    },
+    {
+      "canonical_field_id": "CV2-1-19-SPECIFY_BROKER_OR-B751",
+      "canonical_key": "class_notation_b751",
+      "source_label": "Class notation:",
+      "source_trace_primary": "Q88 Rev.2!E68",
+      "madre_value": 1,
+      "match_source": "Madre de Deus row 68"
+    },
+    {
+      "canonical_field_id": "CV2-1-2-GENERAL_INFORMATIO-4300",
+      "canonical_key": "does_the_vessel_have_any_open_conditions_of_class_if_yes_list_all_open_c_4300",
+      "source_label": "Does the vessel have any open conditions of Class? If yes List all open conditions Yes",
+      "source_trace_primary": "PVQ+Q88!B162",
+      "madre_value": 0,
+      "match_source": "Madre de Deus row 162"
+    },
+    {
+      "canonical_field_id": "CV2-1-2-SPECIFY_BROKER_OR-15F4",
+      "canonical_key": "does_the_vessel_have_any_open_conditions_of_class_if_yes_list_all_open_c_15f4",
+      "source_label": "Does the vessel have any open conditions of Class? If yes List all open conditions Yes",
+      "source_trace_primary": "Q88 Rev.2!E69",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 69"
+    },
+    {
+      "canonical_field_id": "CV2-1-20A-GENERAL_INFORMATIO-F0C3",
+      "canonical_key": "does_the_vessel_have_any_memoranda_of_class_if_yes_list_details_no",
+      "source_label": "Does the vessel have any Memoranda of Class? If yes, list details No",
+      "source_trace_primary": "PVQ+Q88 Clean!B120",
+      "madre_value": "No",
+      "match_source": "Madre label fuzzy"
+    },
+    {
+      "canonical_field_id": "CV2-1-20A-WASTE_OIL_INCINERA-4FA9",
+      "canonical_key": "does_the_vessel_have_any_memoranda_of_class_if_yes_list_details_no_4fa9",
+      "source_label": "Does the vessel have any Memoranda of Class? If yes, list details No",
+      "source_trace_primary": "Q88 Rev.2!E75",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 75"
+    },
+    {
+      "canonical_field_id": "CV2-1-22-GENERAL_INFORMATIO-BF05",
+      "canonical_key": "does_the_vessel_have_ice_class_if_yes_state_what_level",
+      "source_label": "Does the vessel have ice class? If yes, state what level:",
+      "source_trace_primary": "PVQ+Q88 Clean!B122",
+      "madre_value": "Fronape International Company",
+      "match_source": "Madre de Deus row 122"
+    },
+    {
+      "canonical_field_id": "CV2-1-22-WASTE_OIL_INCINERA-8D79",
+      "canonical_key": "does_the_vessel_have_ice_class_if_yes_state_what_level_8d79",
+      "source_label": "Does the vessel have ice class? If yes, state what level:",
+      "source_trace_primary": "Q88 Rev.2!E80",
+      "madre_value": 3,
+      "match_source": "Madre de Deus row 80"
+    },
+    {
+      "canonical_field_id": "CV2-14-1",
+      "canonical_key": "classification_society",
+      "source_label": "Classification society:",
+      "source_trace_primary": "Modelo!B142",
+      "madre_value": "American Bureau of Shipping",
+      "match_source": "Madre de Deus row 142"
+    },
+    {
+      "canonical_field_id": "CV2-14-11",
+      "canonical_key": "if_classification_society_changed_date_of_change",
+      "source_label": "If classification society changed date of change:",
+      "source_trace_primary": "Modelo!B152",
+      "madre_value": "Aug 31, 2012",
+      "match_source": "Madre de Deus row 152"
+    },
+    {
+      "canonical_field_id": "CV2-14-12",
+      "canonical_key": "does_the_vessel_have_ice_class",
+      "source_label": "Does the vessel have ice class?",
+      "source_trace_primary": "Modelo!B153",
+      "madre_value": "NO",
+      "match_source": "Madre de Deus row 153"
+    },
+    {
+      "canonical_field_id": "CV2-14-14",
+      "canonical_key": "date_of_last_dry_dock",
+      "source_label": "Date of last dry-dock:",
+      "source_trace_primary": "Modelo!B155",
+      "madre_value": "Dec 28, 2022 /",
+      "match_source": "Madre de Deus row 155"
+    },
+    {
+      "canonical_field_id": "CV2-14-15",
+      "canonical_key": "place_of_last_dry_dock",
+      "source_label": "Place of last dry-dock:",
+      "source_trace_primary": "Modelo!B156",
+      "madre_value": " Lisnave/Setubal/Portugal",
+      "match_source": "Madre de Deus row 156"
+    },
+    {
+      "canonical_field_id": "CV2-14-16",
+      "canonical_key": "date_next_dry_dock_due",
+      "source_label": "Date next dry dock due:",
+      "source_trace_primary": "Modelo!B157",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre de Deus row 157"
+    },
+    {
+      "canonical_field_id": "CV2-14-17",
+      "canonical_key": "date_next_annual_survey_due",
+      "source_label": "Date next annual survey due:",
+      "source_trace_primary": "Modelo!B158",
+      "madre_value": "Nov 29, 2026",
+      "match_source": "Madre de Deus row 158"
+    },
+    {
+      "canonical_field_id": "CV2-14-18-CLASSIFICATION-9499",
+      "canonical_key": "date_of_last_special_survey",
+      "source_label": "Date of last special survey",
+      "source_trace_primary": "Madre de Deus!B159",
+      "madre_value": "Jan 28, 2023",
+      "match_source": "Madre de Deus row 159"
+    },
+    {
+      "canonical_field_id": "CV2-14-18-CLASSIFICATION-E8B7",
+      "canonical_key": "date_of_last_special_survey_next_special_survey_due",
+      "source_label": "Date of last special survey/next special survey due:",
+      "source_trace_primary": "Modelo!B159",
+      "madre_value": "Jan 28, 2023",
+      "match_source": "Madre de Deus row 159"
+    },
+    {
+      "canonical_field_id": "CV2-14-19",
+      "canonical_key": "does_the_ship_have_a_condition_assessment_program_cap",
+      "source_label": "Does the ship have a Condition Assessment Program (CAP)?",
+      "source_trace_primary": "Modelo!B160",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre de Deus row 160"
+    },
+    {
+      "canonical_field_id": "CV2-14-2",
+      "canonical_key": "is_classification_society_an_iacs_member",
+      "source_label": "Is Classification Society an IACS member?",
+      "source_trace_primary": "Modelo!B143",
+      "madre_value": "Yes",
+      "match_source": "Madre de Deus row 143"
+    },
+    {
+      "canonical_field_id": "CV2-14-20",
+      "canonical_key": "if_ship_has_condition_assessment_program_cap_what_is_the_latest_overall",
+      "source_label": "If ship has Condition Assessment Program (CAP), what is the latest overall rating:",
+      "source_trace_primary": "Modelo!B161",
+      "madre_value": "NO",
+      "match_source": "Madre de Deus row 161"
+    },
+    {
+      "canonical_field_id": "CV2-14-3",
+      "canonical_key": "class_notation_552d",
+      "source_label": "Class notation:",
+      "source_trace_primary": "Modelo!B144",
+      "madre_value": "A1, BLU, Oil Carrier, AMS, ACCU, DPS-2, NBLES, VEC, TCM, BWE, CSR, SPMA (Add. Notation: POT, ESP, UWILD, CPS)",
+      "match_source": "Madre de Deus row 144"
+    },
+    {
+      "canonical_field_id": "CV2-14-4",
+      "canonical_key": "does_the_vessel_have_any_open_conditions_of_class_if_yes_list_all_open_c",
+      "source_label": "Does the vessel have any open conditions of Class? If yes List all open conditions?",
+      "source_trace_primary": "Modelo!B145",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 145"
+    },
+    {
+      "canonical_field_id": "CV2-14-5",
+      "canonical_key": "if_the_ship_has_any_open_class_condition_list_all_open_conditions",
+      "source_label": "If the ship has any open Class condition, list all open conditions:",
+      "source_trace_primary": "Modelo!B146",
+      "madre_value": "Condition No. 506.1",
+      "match_source": "Madre de Deus row 146"
+    },
+    {
+      "canonical_field_id": "CV2-14-6",
+      "canonical_key": "open_conditions_of_class",
+      "source_label": "Open Conditions of Class",
+      "source_trace_primary": "Modelo!B147",
+      "madre_value": "N/A",
+      "match_source": "Madre de Deus row 147"
+    },
+    {
+      "canonical_field_id": "CV2-14-7",
+      "canonical_key": "due_date",
+      "source_label": "Due Date",
+      "source_trace_primary": "Modelo!B148",
+      "madre_value": "2027-08-29",
+      "match_source": "Madre de Deus row 148"
+    },
+    {
+      "canonical_field_id": "CV2-14-8",
+      "canonical_key": "does_the_vessel_have_any_memoranda_of_class",
+      "source_label": "Does the vessel have any Memoranda of Class?",
+      "source_trace_primary": "Modelo!B149",
+      "madre_value": "No",
+      "match_source": "Madre de Deus row 149"
+    },
+    {
+      "canonical_field_id": "CV2-14-9",
+      "canonical_key": "list_the_details_if_the_vessel_has_any_class_memorandum",
+      "source_label": "List the details if the vessel has any Class Memorandum",
+      "source_trace_primary": "Modelo!B150",
+      "madre_value": "N/A",
+      "match_source": "Madre de Deus row 150"
+    },
+    {
+      "canonical_field_id": "CV2-2-4-CLASS-BD5B",
+      "canonical_key": "additional_bls_class_notation",
+      "source_label": "Additional BLS Class Notation",
+      "source_trace_primary": "Modelo!B20",
+      "madre_value": "BOW LOADING",
+      "match_source": "Madre de Deus row 20"
+    },
+    {
+      "canonical_field_id": "CV2-2-5-CLASS-C6C7",
+      "canonical_key": "last_special_survey_applicable",
+      "source_label": "Last Special Survey - Applicable?",
+      "source_trace_primary": "Modelo!B21",
+      "madre_value": "Applicable",
+      "match_source": "Madre de Deus row 21"
+    },
+    {
+      "canonical_field_id": "CV2-2-6-CLASS-7622",
+      "canonical_key": "last_annual_survey_applicable",
+      "source_label": "Last Annual Survey - Applicable?",
+      "source_trace_primary": "Modelo!B22",
+      "madre_value": "2023-01-28",
+      "match_source": "Madre de Deus row 22"
+    },
+    {
+      "canonical_field_id": "CV2-2-7-CLASS-BFC4",
+      "canonical_key": "date_of_last_annual_survey_if_applicable",
+      "source_label": "Date of last Annual Survey (if Applicable)",
+      "source_trace_primary": "Modelo!B23",
+      "madre_value": "2025-12-02",
+      "match_source": "Madre de Deus row 23"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-CLASSIFICATION-FE1C9B",
+      "canonical_key": "classification",
+      "source_label": "Classification",
+      "source_trace_primary": "PVQ+Q88 Clean!B118",
+      "madre_value": "AV. Republica Do Chilie, 65-Centro, Rio de Janeiro, Brazil",
+      "match_source": "Madre de Deus row 118"
+    },
+    {
+      "canonical_field_id": "VF-14-13",
+      "canonical_key": "if_the_ship_has_ice_classification_please_indicate_the_level",
+      "source_label": "If the ship has ice classification, please indicate the level:",
+      "source_trace_primary": "Modelo!B154",
+      "madre_value": "N/A",
+      "match_source": "Madre de Deus row 154"
+    },
+    {
+      "canonical_field_id": "VF-2-1",
+      "canonical_key": "vessel_classification_society",
+      "source_label": "Vessel Classification Society",
+      "source_trace_primary": "Modelo!B17",
+      "madre_value": "ABS",
+      "match_source": "Madre de Deus row 17"
+    },
+    {
+      "canonical_field_id": "VF-2-1-DE19",
+      "canonical_key": "classification_society_de19",
+      "source_label": "Classification Society",
+      "source_trace_primary": "PVQ+Q88 Clean!B27",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 27"
+    },
+    {
+      "canonical_field_id": "VF-2-3",
+      "canonical_key": "class_notation",
+      "source_label": "Class Notation",
+      "source_trace_primary": "Modelo!B19",
+      "madre_value": "A1,Oil Carrier, ESP, AMS, ACCU, DPS-2, CSR",
+      "match_source": "Madre de Deus row 19"
+    },
+    {
+      "canonical_field_id": "VF-2-3-EF8E",
+      "canonical_key": "additional_dp_class_notation",
+      "source_label": "Additional DP Class Notation",
+      "source_trace_primary": "PVQ+Q88 Clean!B30",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 30"
+    },
+    {
+      "canonical_field_id": "CV2-1-27-WASTE_OIL_INCINERA-4F3B",
+      "canonical_key": "length_overall_loa_4f3b",
+      "source_label": "Length overall (LOA):",
+      "source_trace_primary": "Certificados!E86",
+      "madre_value": "244.75 Metres",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-1-28-WASTE_OIL_INCINERA-C00C",
+      "canonical_key": "length_between_perpendiculars_lbp_c00c",
+      "source_label": "Length between perpendiculars (LBP):",
+      "source_trace_primary": "Certificados!E87",
+      "madre_value": "233.00 Metres",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-1-29-WASTE_OIL_INCINERA-F65E",
+      "canonical_key": "extreme_breadth_beam_f65e",
+      "source_label": "Extreme breadth (Beam):",
+      "source_trace_primary": "Certificados!E88",
+      "madre_value": "42.00 Metres",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-1-3-WASTE_OIL_INCINERA-F41B",
+      "canonical_key": "moulded_depth_f41b",
+      "source_label": "Moulded depth:",
+      "source_trace_primary": "Certificados!E89",
+      "madre_value": "22.50 Metres",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-1-35-GENERAL_INFORMATIO-C16E",
+      "canonical_key": "net_tonnage_c16e",
+      "source_label": "Net Tonnage:",
+      "source_trace_primary": "PVQ+Q88 Clean!B139",
+      "madre_value": "Nov 30, 2026",
+      "match_source": "Madre de Deus row 139"
+    },
+    {
+      "canonical_field_id": "CV2-1-36-GENERAL_INFORMATIO-0569",
+      "canonical_key": "gross_tonnage_reduced_gross_tonnage_if_applicable",
+      "source_label": "Gross Tonnage/Reduced Gross Tonnage (if applicable):",
+      "source_trace_primary": "PVQ+Q88 Clean!B140",
+      "madre_value": 62753,
+      "match_source": "Madre label fuzzy"
+    },
+    {
+      "canonical_field_id": "CV2-1-37-GENERAL_INFORMATIO-0762",
+      "canonical_key": "suez_canal_tonnage_gross_scgt_net_scnt",
+      "source_label": "Suez Canal Tonnage - Gross (SCGT)/Net (SCNT):",
+      "source_trace_primary": "PVQ+Q88 Clean!B141",
+      "madre_value": 64133.44,
+      "match_source": "Madre label fuzzy"
+    },
+    {
+      "canonical_field_id": "CV2-1-38-GENERAL_INFORMATIO-80EC",
+      "canonical_key": "is_vessel_fitted_for_transit_of_panama_canal_panama_canal_net_tonnage_pc",
+      "source_label": "Is vessel fitted for transit of Panama canal? Panama Canal Net Tonnage (PCNT):",
+      "source_trace_primary": "PVQ+Q88 Clean!B142",
+      "madre_value": "American Bureau of Shipping",
+      "match_source": "Madre de Deus row 142"
+    },
+    {
+      "canonical_field_id": "CV2-1-4-SEGREGATED_BALLAST-1DA9",
+      "canonical_key": "fwa_tpc_at_summer_draft_1da9",
+      "source_label": "FWA/TPC at summer draft:",
+      "source_trace_primary": "Certificados!E111",
+      "madre_value": "IMO: 4169250",
+      "match_source": "Madre de Deus row 111"
+    },
+    {
+      "canonical_field_id": "CV2-1-44-SEGREGATED_BALLAST-4F8F",
+      "canonical_key": "what_is_the_max_height_of_mast_above_waterline_air_draft_4f8f",
+      "source_label": "What is the max height of mast above waterline (air draft)",
+      "source_trace_primary": "Certificados!E122",
+      "madre_value": "Fronape International Company",
+      "match_source": "Madre de Deus row 122"
+    },
+    {
+      "canonical_field_id": "CV2-15-11-DIMENSIONS-B9A7",
+      "canonical_key": "parallel_body_distances_summer_dwt",
+      "source_label": "Parallel body distances - Summer Dwt",
+      "source_trace_primary": "Modelo!B174",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-15-15-DIMENSIONS-75E2",
+      "canonical_key": "parallel_body_distances_parallel_body_length_lightship",
+      "source_label": "Parallel body distances Parallel body length - Lightship",
+      "source_trace_primary": "Madre de Deus!B182",
+      "madre_value": "7.24 Metres",
+      "match_source": "Madre de Deus row 182"
+    },
+    {
+      "canonical_field_id": "CV2-15-16-DIMENSIONS-A77C",
+      "canonical_key": "parallel_body_distances_parallel_body_length_normal_ballast",
+      "source_label": "Parallel body distances Parallel body length- Normal Ballast",
+      "source_trace_primary": "Madre de Deus!B183",
+      "madre_value": "7.20 Metres",
+      "match_source": "Madre de Deus row 183"
+    },
+    {
+      "canonical_field_id": "CV2-15-17-DIMENSIONS-87E6",
+      "canonical_key": "parallel_body_distances_parallel_body_length_summer_dwt",
+      "source_label": "Parallel body distances Parallel body length - Summer Dwt",
+      "source_trace_primary": "Madre de Deus!B184",
+      "madre_value": "15.07 Metres",
+      "match_source": "Madre de Deus row 184"
+    },
+    {
+      "canonical_field_id": "CV2-15-18",
+      "canonical_key": "parallel_body_length_lightship",
+      "source_label": "Parallel body length - Lightship",
+      "source_trace_primary": "Modelo!B181",
+      "madre_value": "73.14 Metres",
+      "match_source": "Madre de Deus row 181"
+    },
+    {
+      "canonical_field_id": "CV2-15-19",
+      "canonical_key": "parallel_body_length_normal_ballast",
+      "source_label": "Parallel body length- Normal Ballast",
+      "source_trace_primary": "Modelo!B182",
+      "madre_value": "7.24 Metres",
+      "match_source": "Madre de Deus row 182"
+    },
+    {
+      "canonical_field_id": "CV2-15-2",
+      "canonical_key": "length_between_perpendiculars_lbp",
+      "source_label": "Length between perpendiculars (LBP):",
+      "source_trace_primary": "Modelo!B165",
+      "madre_value": "244.75 Metres",
+      "match_source": "Madre de Deus row 165"
+    },
+    {
+      "canonical_field_id": "CV2-15-20",
+      "canonical_key": "parallel_body_length_summer_dwt",
+      "source_label": "Parallel body length - Summer Dwt",
+      "source_trace_primary": "Modelo!B183",
+      "madre_value": "7.20 Metres",
+      "match_source": "Madre de Deus row 183"
+    },
+    {
+      "canonical_field_id": "CV2-15-4",
+      "canonical_key": "moulded_depth",
+      "source_label": "Moulded depth:",
+      "source_trace_primary": "Modelo!B167",
+      "madre_value": "42.00 Metres",
+      "match_source": "Madre de Deus row 167"
+    },
+    {
+      "canonical_field_id": "CV2-16-3",
+      "canonical_key": "reduced_gross_tonnage_if_applicable",
+      "source_label": "Reduced Gross Tonnage (if applicable)",
+      "source_trace_primary": "Modelo!B188",
+      "madre_value": 62753,
+      "match_source": "Madre de Deus row 188"
+    },
+    {
+      "canonical_field_id": "CV2-16-4",
+      "canonical_key": "suez_canal_tonnage",
+      "source_label": "Suez Canal Tonnage",
+      "source_trace_primary": "Modelo!B189",
+      "madre_value": 50893,
+      "match_source": "Madre de Deus row 189"
+    },
+    {
+      "canonical_field_id": "CV2-16-7",
+      "canonical_key": "panama_canal_net_tonnage_pcnt",
+      "source_label": "Panama Canal Net Tonnage (PCNT):",
+      "source_trace_primary": "Modelo!B192",
+      "madre_value": 29157,
+      "match_source": "Madre label fuzzy"
+    },
+    {
+      "canonical_field_id": "CV2-3-2-CREW_COMPETENCE-DF06",
+      "canonical_key": "is_the_crew_aware_of_all_requirements_and_procedures_described_in_offsho",
+      "source_label": "Is the crew aware of all requirements and procedures described in \"Offshore Loading Guidelines for DP Shuttle Tankers Operations\" issued by PETROBRAS/E&P and ready to follow it during the OFFSHORE LOADING operations?",
+      "source_trace_primary": "Modelo!B27",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 27"
+    },
+    {
+      "canonical_field_id": "CV2-32-1",
+      "canonical_key": "what_is_total_sbt_capacity_and_percentage_of_sdwt_vessel_can_maintain",
+      "source_label": "What is total SBT capacity and percentage of SDWT vessel can maintain?",
+      "source_trace_primary": "Modelo!B293",
+      "madre_value": "Solid",
+      "match_source": "Madre de Deus row 293"
+    },
+    {
+      "canonical_field_id": "CV2-4-1-SHUTTLE_TANKER_OFF-893C",
+      "canonical_key": "is_the_vessel_suitably_equipped_for_offshore_loading_operations",
+      "source_label": "4.1 Is the vessel suitably equipped for OFFSHORE LOADING operations?",
+      "source_trace_primary": "Modelo!B30",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 30"
+    },
+    {
+      "canonical_field_id": "CV2-4-4-SHUTTLE_TANKER_OFF-D16A",
+      "canonical_key": "is_the_vessel_s_degraded_status_criteria_activity_specific_operating_gui",
+      "source_label": "4.4 Is the vessel's DEGRADED STATUS CRITERIA/ACTIVITY SPECIFIC OPERATING GUIDELINES considering the latest modifications in all systems as well as complying with \"Offshore Loading Guidelines for DP Shuttle Tankers Operations\" issued by PETROBRAS/E&P?",
+      "source_trace_primary": "Modelo!B33",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 33"
+    },
+    {
+      "canonical_field_id": "CV2-5-4-BOW_LOADING_SYSTEM-3B1A",
+      "canonical_key": "is_the_hawser_loading_cell_calibrated_according_to_the_operational_limit",
+      "source_label": "5.4 Is the HAWSER LOADING CELL calibrated according to the operational limits and measurements properly applied?",
+      "source_trace_primary": "Modelo!B39",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 39"
+    },
+    {
+      "canonical_field_id": "CV2-9-13-DB00510-0352",
+      "canonical_key": "does_vessel_have_a_portable_gangway_if_yes_state_length",
+      "source_label": "Does vessel have a portable gangway? If yes, state length",
+      "source_trace_primary": "PVQ+Q88 Clean!B346",
+      "madre_value": "Yes",
+      "match_source": "Madre label fuzzy"
+    },
+    {
+      "canonical_field_id": "CV2-9-13-GANGWAY_PARA_O_CTV-3ADD",
+      "canonical_key": "does_vessel_have_a_portable_gangway_if_yes_state_length_3add",
+      "source_label": "Does vessel have a portable gangway? If yes, state length",
+      "source_trace_primary": "Q88 Rev.2!E505",
+      "madre_value": "Yes",
+      "match_source": "Madre label fuzzy"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-SBM_CBM_MOORING_THE_MINIMUM_UKC_IS_1-7A0F8E",
+      "canonical_key": "sbm_cbm_mooring_the_minimum_ukc_is_10_of_the_static_draft",
+      "source_label": "SBM/CBM mooring the minimum UKC is 10 % of the static draft",
+      "source_trace_primary": "PVQ+Q88!S214",
+      "madre_value": "-",
+      "match_source": "Madre de Deus row 214"
+    },
+    {
+      "canonical_field_id": "VF-15-1",
+      "canonical_key": "length_overall_loa",
+      "source_label": "Length overall (LOA):",
+      "source_trace_primary": "Modelo!B164",
+      "madre_value": "244.75 Metres",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "VF-15-3",
+      "canonical_key": "extreme_breadth_beam",
+      "source_label": "Extreme breadth (Beam):",
+      "source_trace_primary": "Modelo!B166",
+      "madre_value": "233.00 Metres",
+      "match_source": "Madre de Deus row 166"
+    },
+    {
+      "canonical_field_id": "VF-16-1",
+      "canonical_key": "net_tonnage",
+      "source_label": "Net Tonnage:",
+      "source_trace_primary": "Modelo!B186",
+      "madre_value": 29157,
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "VF-16-2",
+      "canonical_key": "gross_tonnage",
+      "source_label": "Gross Tonnage",
+      "source_trace_primary": "Modelo!B187",
+      "madre_value": 29157,
+      "match_source": "Madre de Deus row 187"
+    },
+    {
+      "canonical_field_id": "CV2-1-14",
+      "canonical_key": "p_i_club_full_style_8f46",
+      "source_label": "P & I Club - Full Style:",
+      "source_trace_primary": "PVQ+Q88 Clean!B113",
+      "madre_value": "Svinoddveien 12, 4836 Arendal, Norway",
+      "match_source": "Madre de Deus row 113"
+    },
+    {
+      "canonical_field_id": "CV2-1-16",
+      "canonical_key": "hull_machinery_insured_by_full_style",
+      "source_label": "Hull & Machinery insured by - Full Style:",
+      "source_trace_primary": "PVQ+Q88 Clean!B115",
+      "madre_value": "Fax: +47 40479800",
+      "match_source": "Madre de Deus row 115"
+    },
+    {
+      "canonical_field_id": "CV2-1-17-GENERAL_INFORMATIO-6351",
+      "canonical_key": "hull_machinery_insured_value_expiration_date",
+      "source_label": "Hull & Machinery insured value/expiration date:",
+      "source_trace_primary": "PVQ+Q88 Clean!B117",
+      "madre_value": "Petroleo Brasileiro S.A.-Petrobras, Brazil",
+      "match_source": "Madre de Deus row 117"
+    },
+    {
+      "canonical_field_id": "CV2-1-17-SPECIFY_BROKER_OR-AAEE",
+      "canonical_key": "hull_machinery_insured_value_expiration_date_aaee",
+      "source_label": "Hull & Machinery insured value/expiration date:",
+      "source_trace_primary": "Q88 Rev.2!E64",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 64"
+    },
+    {
+      "canonical_field_id": "CV2-1-9-GENERAL_INFORMATIO-2018",
+      "canonical_key": "type_of_hull",
+      "source_label": "Type of hull:",
+      "source_trace_primary": "Modelo!B103",
+      "madre_value": "Double Hull",
+      "match_source": "Madre de Deus row 103"
+    },
+    {
+      "canonical_field_id": "CV2-13-10",
+      "canonical_key": "hull_machinery_insured_value_us",
+      "source_label": "Hull & Machinery insured value (US$)",
+      "source_trace_primary": "Modelo!B138",
+      "madre_value": "47,250,000 US$ (Hull and Machinery $47250000 Increased Value $11812500 Freight Interest $9937500 War Risks $63000000)",
+      "match_source": "Madre de Deus row 138"
+    },
+    {
+      "canonical_field_id": "CV2-13-2",
+      "canonical_key": "p_i_club_s_address",
+      "source_label": "P & I Club 's address:",
+      "source_trace_primary": "Modelo!B130",
+      "madre_value": "90 Fenchurch Street, London EC3M 4ST",
+      "match_source": "Madre de Deus row 130"
+    },
+    {
+      "canonical_field_id": "CV2-13-3",
+      "canonical_key": "p_i_club_s_contact_details_satcom",
+      "source_label": "P & I Club ’s contact details satcom",
+      "source_trace_primary": "Modelo!B131",
+      "madre_value": "Tel: +44 (0) 20 7283 4646",
+      "match_source": "Madre de Deus row 131"
+    },
+    {
+      "canonical_field_id": "CV2-13-4",
+      "canonical_key": "p_i_club_s_contact_details_fax",
+      "source_label": "P & I Club ’s contact details fax",
+      "source_trace_primary": "Modelo!B132",
+      "madre_value": "Fax: +44 (0) 20 7621 9761",
+      "match_source": "Madre de Deus row 132"
+    },
+    {
+      "canonical_field_id": "CV2-13-5",
+      "canonical_key": "p_i_club_s_contact_details_email",
+      "source_label": "P & I Club ’s contact details email",
+      "source_trace_primary": "Modelo!B133",
+      "madre_value": "Email: underwriting.ukclub@thomasmiller.com",
+      "match_source": "Madre de Deus row 133"
+    },
+    {
+      "canonical_field_id": "VF-13-1",
+      "canonical_key": "p_i_club_full_style",
+      "source_label": "P & I Club - Full Style:",
+      "source_trace_primary": "Modelo!B129",
+      "madre_value": "United Kingdom Mutual Steam Ship Assurance Association Ltd",
+      "match_source": "Madre de Deus row 129"
+    },
+    {
+      "canonical_field_id": "VF-13-11",
+      "canonical_key": "hull_machinery_insured_expiration_date",
+      "source_label": "Hull & Machinery insured expiration date:",
+      "source_trace_primary": "Modelo!B139",
+      "madre_value": "Nov 30, 2026",
+      "match_source": "Madre de Deus row 139"
+    },
+    {
+      "canonical_field_id": "VF-13-9",
+      "canonical_key": "hull_machinery_insured_by_full_style_specify_broker_or_leading_underwrit",
+      "source_label": "Hull & Machinery insured by - Full Style: (Specify broker or leading underwriter)",
+      "source_trace_primary": "Modelo!B137",
+      "madre_value": "MAPFRE",
+      "match_source": "Madre de Deus row 137"
+    },
+    {
+      "canonical_field_id": "CV2-3-2-CREW-99F9",
+      "canonical_key": "number_and_nationality_of_officers",
+      "source_label": "Number and nationality of Officers:",
+      "source_trace_primary": "Q88 Rev.1!E159",
+      "madre_value": "Jan 28, 2023",
+      "match_source": "Madre de Deus row 159"
+    },
+    {
+      "canonical_field_id": "CV2-3-2-CREW_DOES_SOMEONE-5019",
+      "canonical_key": "number_and_nationality_of_officers_5019",
+      "source_label": "Number and nationality of Officers:",
+      "source_trace_primary": "PVQ+Q88!B252",
+      "madre_value": "Jun 13, 2024",
+      "match_source": "Madre de Deus row 252"
+    },
+    {
+      "canonical_field_id": "CV2-3-4-CREW-4430",
+      "canonical_key": "what_is_the_common_working_language_onboard",
+      "source_label": "What is the common working language onboard:",
+      "source_trace_primary": "Q88 Rev.1!E164",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-3-4-CREW_DOES_SOMEONE-5531",
+      "canonical_key": "what_is_the_common_working_language_onboard_5531",
+      "source_label": "What is the common working language onboard:",
+      "source_trace_primary": "PVQ+Q88!B257",
+      "madre_value": "Feb 07, 2024",
+      "match_source": "Madre de Deus row 257"
+    },
+    {
+      "canonical_field_id": "CV2-3-5-CREW-43CD",
+      "canonical_key": "do_officers_speak_and_understand_english",
+      "source_label": "Do officers speak and understand English?",
+      "source_trace_primary": "Q88 Rev.1!E165",
+      "madre_value": "244.75 Metres",
+      "match_source": "Madre de Deus row 165"
+    },
+    {
+      "canonical_field_id": "CV2-3-5-CREW_DOES_SOMEONE-A505",
+      "canonical_key": "do_officers_speak_and_understand_english_a505",
+      "source_label": "Do officers speak and understand English?",
+      "source_trace_primary": "PVQ+Q88!B258",
+      "madre_value": "Feb 06, 2029",
+      "match_source": "Madre de Deus row 258"
+    },
+    {
+      "canonical_field_id": "CV2-3-6-CREW-A881",
+      "canonical_key": "if_officers_ratings_employed_by_a_manning_agency_full_style",
+      "source_label": "If Officers/ratings employed by a manning agency - Full style:",
+      "source_trace_primary": "Q88 Rev.1!E166",
+      "madre_value": "233.00 Metres",
+      "match_source": "Madre de Deus row 166"
+    },
+    {
+      "canonical_field_id": "CV2-3-6-CREW_DOES_SOMEONE-CEDA",
+      "canonical_key": "if_officers_ratings_employed_by_a_manning_agency_full_style_ceda",
+      "source_label": "If Officers/ratings employed by a manning agency - Full style:",
+      "source_trace_primary": "PVQ+Q88!B259",
+      "madre_value": "Jun 13, 2024",
+      "match_source": "Madre de Deus row 259"
+    },
+    {
+      "canonical_field_id": "UI-PAGE02-CREWTOTAL",
+      "canonical_key": "crewTotal",
+      "source_label": "Tripulantes",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE02-OFFICERS",
+      "canonical_key": "officers",
+      "source_label": "Oficiais",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "VF-3-3",
+      "canonical_key": "number_and_nationality_of_crew",
+      "source_label": "Number and nationality of Crew:",
+      "source_trace_primary": "Q88 Rev.1!E160",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre de Deus row 160"
+    },
+    {
+      "canonical_field_id": "VF-3-3-9BF0",
+      "canonical_key": "number_and_nationality_of_crew_9bf0",
+      "source_label": "Number and nationality of Crew:",
+      "source_trace_primary": "PVQ+Q88!B253",
+      "madre_value": "Not Applicable",
+      "match_source": "Madre de Deus row 253"
+    },
+    {
+      "canonical_field_id": "CV2-10-10",
+      "canonical_key": "how_many_operational_gyrocompasses_of_operational",
+      "source_label": "10.5 How many operational Gyrocompasses of operational?",
+      "source_trace_primary": "Modelo!B81",
+      "madre_value": 3,
+      "match_source": "Madre de Deus row 81"
+    },
+    {
+      "canonical_field_id": "CV2-10-9-DYNAMIC_POSITIONIN-1056",
+      "canonical_key": "how_many_operational_gyrocompasses_of_total",
+      "source_label": "10.5 How many operational Gyrocompasses of total?",
+      "source_trace_primary": "Modelo!B80",
+      "madre_value": 3,
+      "match_source": "Madre de Deus row 80"
+    },
+    {
+      "canonical_field_id": "CV2-9-1-POSITION_REFERENCE-DA65",
+      "canonical_key": "how_many_operational_dgps_systems_of_total",
+      "source_label": "How many operational DGPS systems of total?",
+      "source_trace_primary": "Modelo!B61",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 61"
+    },
+    {
+      "canonical_field_id": "CV2-9-2-POSITION_REFERENCE-6923",
+      "canonical_key": "how_many_operational_dgps_systems_of_operational",
+      "source_label": "How many operational DGPS systems of operational?",
+      "source_trace_primary": "Modelo!B62",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 62"
+    },
+    {
+      "canonical_field_id": "CV2-9-3-POSITION_REFERENCE-8094",
+      "canonical_key": "how_many_operational_darps_systems_of_total",
+      "source_label": "How many operational DARPS systems of total?",
+      "source_trace_primary": "Modelo!B63",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 63"
+    },
+    {
+      "canonical_field_id": "CV2-9-4-POSITION_REFERENCE-DDEE",
+      "canonical_key": "how_many_operational_darps_systems_of_operational",
+      "source_label": "How many operational DARPS systems of operational?",
+      "source_trace_primary": "Modelo!B64",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 64"
+    },
+    {
+      "canonical_field_id": "CV2-9-5-POSITION_REFERENCE-C810",
+      "canonical_key": "how_many_operational_laser_systems_of_total",
+      "source_label": "How many operational LASER systems of total?",
+      "source_trace_primary": "Modelo!B65",
+      "madre_value": 1,
+      "match_source": "Madre de Deus row 65"
+    },
+    {
+      "canonical_field_id": "CV2-9-6-POSITION_REFERENCE-0F79",
+      "canonical_key": "how_many_operational_laser_systems_of_operational",
+      "source_label": "How many operational LASER systems of operational?",
+      "source_trace_primary": "Modelo!B66",
+      "madre_value": 1,
+      "match_source": "Madre de Deus row 66"
+    },
+    {
+      "canonical_field_id": "CV2-9-7-POSITION_REFERENCE-2BDB",
+      "canonical_key": "how_many_microwave_systems_of_total",
+      "source_label": "How many MICROWAVE systems of total?",
+      "source_trace_primary": "Modelo!B67",
+      "madre_value": 1,
+      "match_source": "Madre de Deus row 67"
+    },
+    {
+      "canonical_field_id": "CV2-9-8-POSITION_REFERENCE-052F",
+      "canonical_key": "ow_many_microwave_systems_of_operational",
+      "source_label": "ow many MICROWAVE systems of operational?",
+      "source_trace_primary": "Modelo!B68",
+      "madre_value": 1,
+      "match_source": "Madre de Deus row 68"
+    },
+    {
+      "canonical_field_id": "UI-PAGE02-AIS",
+      "canonical_key": "ais",
+      "source_label": "AIS",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE02-ECDIS",
+      "canonical_key": "ecdis",
+      "source_label": "ECDIS",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE02-GPS",
+      "canonical_key": "gps",
+      "source_label": "GPS",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE02-RADAR",
+      "canonical_key": "radar",
+      "source_label": "Radar",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-10-13-DYNAMIC_POSITIONIN-23E1",
+      "canonical_key": "is_the_dp_system_interfaced_with_propulsion_system_icms_prs_and_bls_e_g",
+      "source_label": "10.7 Is the DP System interfaced with Propulsion System, ICMS, PRS and BLS (e.g. hawser tension)?",
+      "source_trace_primary": "Modelo!B84",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 84"
+    },
+    {
+      "canonical_field_id": "CV2-10-2-DYNAMIC_POSITIONIN-F67A",
+      "canonical_key": "how_many_operational_dp_controllers_of_operational",
+      "source_label": "10.1 How many operational DP CONTROLLERS of operational?",
+      "source_trace_primary": "Modelo!B73",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 73"
+    },
+    {
+      "canonical_field_id": "CV2-10-2-LADEN_SPEED-48D1",
+      "canonical_key": "what_type_of_fuel_is_used_for_main_propulsion_if_other_then_specify_48d1",
+      "source_label": "What type of fuel is used for main propulsion? If other, then specify",
+      "source_trace_primary": "Q88 Rev.2!E521",
+      "madre_value": "HFO",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-10-2-PROPULSION-CCA1",
+      "canonical_key": "what_type_of_fuel_is_used_for_main_propulsion_if_other_then_specify_cca1",
+      "source_label": "What type of fuel is used for main propulsion? If other, then specify",
+      "source_trace_primary": "PVQ+Q88!B614",
+      "madre_value": "HFO",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-10-3-DYNAMIC_POSITIONIN-8850",
+      "canonical_key": "how_many_operational_dp_stations_of_total",
+      "source_label": "10.2 How many operational DP STATIONS of total?",
+      "source_trace_primary": "Modelo!B74",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 74"
+    },
+    {
+      "canonical_field_id": "CV2-10-4-DYNAMIC_POSITIONIN-B8C7",
+      "canonical_key": "how_many_operational_dp_stations_of_operational",
+      "source_label": "10.2 How many operational DP STATIONS of operational?",
+      "source_trace_primary": "Modelo!B75",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 75"
+    },
+    {
+      "canonical_field_id": "CV2-10-5-DYNAMIC_POSITIONIN-4140",
+      "canonical_key": "how_many_operational_dp_upss_of_total",
+      "source_label": "10.3 How many operational DP UPSs of total?",
+      "source_trace_primary": "Modelo!B76",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 76"
+    },
+    {
+      "canonical_field_id": "CV2-10-5-IF_OTHER_THEN_SPEC-64A3",
+      "canonical_key": "engines",
+      "source_label": "Engines",
+      "source_trace_primary": "Q88 Rev.2!E542",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-10-6-BOILERS-FF21",
+      "canonical_key": "what_is_brake_horse_power_of_bow_thruster_if_fitted_ff21",
+      "source_label": "What is brake horse power of bow thruster (if fitted):",
+      "source_trace_primary": "Certificados!E546",
+      "madre_value": "Yes, 5,940.00 bhp",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-10-6-DYNAMIC_POSITIONIN-9C75",
+      "canonical_key": "how_many_operational_dp_upss_of_operational",
+      "source_label": "10.3 How many operational DP UPSs of operational?",
+      "source_trace_primary": "Modelo!B77",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 77"
+    },
+    {
+      "canonical_field_id": "CV2-10-7-BOILERS-3150",
+      "canonical_key": "what_is_brake_horse_power_of_stern_thruster_if_fitted_3150",
+      "source_label": "What is brake horse power of stern thruster (if fitted):",
+      "source_trace_primary": "Certificados!E547",
+      "madre_value": "Yes, 2,160.00 bhp",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-12-50",
+      "canonical_key": "knots_wsnp",
+      "source_label": "Knots (WSNP)",
+      "source_trace_primary": "PVQ+Q88!S613",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-6-1-OFFSHORE_TELEMETRY-1278",
+      "canonical_key": "is_the_offshore_telemetry_system_installed_and_operational",
+      "source_label": "6.1 Is the Offshore Telemetry System installed and operational?",
+      "source_trace_primary": "Modelo!B42",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 42"
+    },
+    {
+      "canonical_field_id": "CV2-7-1-PROPULSION_SYSTEM-869B",
+      "canonical_key": "is_are_the_main_engine_s_working_properly",
+      "source_label": "Is/Are the MAIN ENGINE(S) working properly?",
+      "source_trace_primary": "Modelo!B46",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 46"
+    },
+    {
+      "canonical_field_id": "CV2-7-7-PROPULSION_SYSTEM-DDEC",
+      "canonical_key": "are_the_bow_thrusters_and_their_auxiliary_systems_e_g_cpp_nfu_power_supp",
+      "source_label": "7.7 Are the BOW THRUSTERS and their auxiliary systems (e.g. CPP / NFU / Power Supply / VFD) working properly?",
+      "source_trace_primary": "Modelo!B52",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 52"
+    },
+    {
+      "canonical_field_id": "CV2-7-8-PROPULSION_SYSTEM-1C53",
+      "canonical_key": "are_the_stern_thrusters_and_their_auxiliary_systems_e_g_cpp_nfu_power_su",
+      "source_label": "7.8 Are the STERN THRUSTERS and their auxiliary systems (e.g. CPP / NFU / Power Supply / VFD) working properly?",
+      "source_trace_primary": "Modelo!B53",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 53"
+    },
+    {
+      "canonical_field_id": "VF-10-1",
+      "canonical_key": "how_many_operational_dp_controllers_of_total",
+      "source_label": "10.1 How many operational DP CONTROLLERS of total?",
+      "source_trace_primary": "Modelo!B72",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 72"
+    },
+    {
+      "canonical_field_id": "VF-10-1-7A83",
+      "canonical_key": "how_many_operational_dp_controllers_of_total_7a83",
+      "source_label": "How many operational DP CONTROLLERS of total?",
+      "source_trace_primary": "PVQ+Q88 Clean!B80",
+      "madre_value": 3,
+      "match_source": "Madre de Deus row 80"
+    },
+    {
+      "canonical_field_id": "VF-7-6",
+      "canonical_key": "are_the_steering_gears_working_properly",
+      "source_label": "7.6 Are the STEERING GEARS working properly?",
+      "source_trace_primary": "Modelo!B51",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 51"
+    },
+    {
+      "canonical_field_id": "VF-7-6-6589",
+      "canonical_key": "does_the_bwts_have_imo_type_approval_6589",
+      "source_label": "Does the BWTS have IMO type approval?",
+      "source_trace_primary": "PVQ+Q88!B341",
+      "madre_value": "Flue Gas",
+      "match_source": "Madre de Deus row 341"
+    },
+    {
+      "canonical_field_id": "VF-7-6-6826",
+      "canonical_key": "does_the_bwts_have_imo_type_approval",
+      "source_label": "Does the BWTS have IMO type approval?",
+      "source_trace_primary": "Q88 Rev.2!E248",
+      "madre_value": "Jun 17, 2025",
+      "match_source": "Madre de Deus row 248"
+    },
+    {
+      "canonical_field_id": "VF-7-6-FA98",
+      "canonical_key": "are_the_steering_gears_working_properly_fa98",
+      "source_label": "Are the STEERING GEARS working properly?",
+      "source_trace_primary": "PVQ!B58",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 58"
+    },
+    {
+      "canonical_field_id": "VF-7-7",
+      "canonical_key": "is_the_bwts_of_a_uscg_approved_type",
+      "source_label": "Is the BWTS of a USCG approved type?",
+      "source_trace_primary": "Certificados!E249",
+      "madre_value": "Not Applicable",
+      "match_source": "Madre de Deus row 249"
+    },
+    {
+      "canonical_field_id": "CV2-1-11",
+      "canonical_key": "technical_operator_full_style_f430",
+      "source_label": "Technical operator - Full style:",
+      "source_trace_primary": "PVQ+Q88 Clean!B109",
+      "madre_value": "Fax: +47 55 33 35 75",
+      "match_source": "Madre de Deus row 109"
+    },
+    {
+      "canonical_field_id": "CV2-1-12",
+      "canonical_key": "commercial_operator_full_style_7727",
+      "source_label": "Commercial operator - Full style:",
+      "source_trace_primary": "PVQ+Q88 Clean!B110",
+      "madre_value": "Email: bjn@walco.no",
+      "match_source": "Madre de Deus row 110"
+    },
+    {
+      "canonical_field_id": "CV2-1-13",
+      "canonical_key": "disponent_owner_full_style_fa6b",
+      "source_label": "Disponent owner - Full style:",
+      "source_trace_primary": "PVQ+Q88 Clean!B111",
+      "madre_value": "IMO: 4169250",
+      "match_source": "Madre de Deus row 111"
+    },
+    {
+      "canonical_field_id": "CV2-1-2-GENERAL_INFORMATIO-EB8D",
+      "canonical_key": "vessel_s_name_imo_number",
+      "source_label": "Vessel’s name (IMO number):",
+      "source_trace_primary": "PVQ+Q88!B98",
+      "madre_value": "Tel: 431101555",
+      "match_source": "Madre de Deus row 98"
+    },
+    {
+      "canonical_field_id": "CV2-1-23-WASTE_OIL_INCINERA-F24F",
+      "canonical_key": "date_place_of_last_dry_dock_f24f",
+      "source_label": "Date/place of last dry-dock:",
+      "source_trace_primary": "Certificados!E81",
+      "madre_value": 3,
+      "match_source": "Madre de Deus row 81"
+    },
+    {
+      "canonical_field_id": "CV2-1-24-GENERAL_INFORMATIO-184D",
+      "canonical_key": "date_next_dry_dock_due_next_annual_survey_due",
+      "source_label": "Date next dry dock due/next annual survey due:",
+      "source_trace_primary": "PVQ+Q88 Clean!B124",
+      "madre_value": "Tel: +55 21 3211 7451",
+      "match_source": "Madre de Deus row 124"
+    },
+    {
+      "canonical_field_id": "CV2-1-24-WASTE_OIL_INCINERA-F7AB",
+      "canonical_key": "date_next_dry_dock_due_next_annual_survey_due_f7ab",
+      "source_label": "Date next dry dock due/next annual survey due:",
+      "source_trace_primary": "Q88 Rev.2!E82",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 82"
+    },
+    {
+      "canonical_field_id": "CV2-1-25-GENERAL_INFORMATIO-79C8",
+      "canonical_key": "date_of_last_special_survey_next_special_survey_due_79c8",
+      "source_label": "Date of last special survey/next special survey due:",
+      "source_trace_primary": "PVQ+Q88!B176",
+      "madre_value": "59.81 Metres",
+      "match_source": "Madre de Deus row 176"
+    },
+    {
+      "canonical_field_id": "CV2-1-25-WASTE_OIL_INCINERA-5513",
+      "canonical_key": "date_of_last_special_survey_next_special_survey_due_5513",
+      "source_label": "Date of last special survey/next special survey due:",
+      "source_trace_primary": "Q88 Rev.2!E83",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 83"
+    },
+    {
+      "canonical_field_id": "CV2-1-26-GENERAL_INFORMATIO-AC3A",
+      "canonical_key": "if_ship_has_condition_assessment_program_cap_what_is_the_latest_overall_ac3a",
+      "source_label": "If ship has Condition Assessment Program (CAP), what is the latest overall rating:",
+      "source_trace_primary": "PVQ+Q88 Clean!B125",
+      "madre_value": 0,
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-1-26-WASTE_OIL_INCINERA-5213",
+      "canonical_key": "if_ship_has_condition_assessment_program_cap_what_is_the_latest_overall_5213",
+      "source_label": "If ship has Condition Assessment Program (CAP), what is the latest overall rating:",
+      "source_trace_primary": "Q88 Rev.2!E84",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 84"
+    },
+    {
+      "canonical_field_id": "CV2-1-2B",
+      "canonical_key": "is_the_vessel_owner_manager_a_member_of_intertanko_if_yes_please_provide",
+      "source_label": "Is the vessel owner/manager a member of INTERTANKO? If yes, please provide IMO number of the Member organization",
+      "source_trace_primary": "PVQ+Q88 Clean!B98",
+      "madre_value": "Tel: 431101555",
+      "match_source": "Madre de Deus row 98"
+    },
+    {
+      "canonical_field_id": "CV2-1-31-WASTE_OIL_INCINERA-A762",
+      "canonical_key": "keel_to_masthead_ktm_keel_to_masthead_ktm_in_collapsed_condition_if_appl_a762",
+      "source_label": "Keel to masthead (KTM)/ Keel to masthead (KTM) in collapsed condition, if applicable:",
+      "source_trace_primary": "Certificados!E90",
+      "madre_value": "May 01, 2026",
+      "match_source": "Madre de Deus row 90"
+    },
+    {
+      "canonical_field_id": "CV2-1-34-WASTE_OIL_INCINERA-AE86",
+      "canonical_key": "parallel_body_distances_ae86",
+      "source_label": "Parallel body distances",
+      "source_trace_primary": "Certificados!E93",
+      "madre_value": "(OSM Ship Management AS - Technical Manager),",
+      "match_source": "Madre de Deus row 93"
+    },
+    {
+      "canonical_field_id": "CV2-1-4-GENERAL_INFORMATIO-128F",
+      "canonical_key": "date_delivered_builder_where_built",
+      "source_label": "Date delivered/Builder (where built):",
+      "source_trace_primary": "Modelo!B95",
+      "madre_value": "Aug 30, 2012/Samsung Heavy Industries, Korea",
+      "match_source": "Madre de Deus row 95"
+    },
+    {
+      "canonical_field_id": "CV2-1-41-GENERAL_INFORMATIO-2CBA",
+      "canonical_key": "have_multiple_deadweights_been_assigned_if_yes_list_all_assigned_deadwei",
+      "source_label": "Have multiple deadweights been assigned? If yes, list all assigned deadweights:",
+      "source_trace_primary": "PVQ+Q88 Clean!B153",
+      "madre_value": "NO",
+      "match_source": "Madre de Deus row 153"
+    },
+    {
+      "canonical_field_id": "CV2-1-41-SEGREGATED_BALLAST-55CF",
+      "canonical_key": "have_multiple_deadweights_been_assigned_if_yes_list_all_assigned_deadwei_55cf",
+      "source_label": "Have multiple deadweights been assigned? If yes, list all assigned deadweights:",
+      "source_trace_primary": "Q88 Rev.2!E112",
+      "madre_value": "OSM Ship Management AS",
+      "match_source": "Madre de Deus row 112"
+    },
+    {
+      "canonical_field_id": "CV2-1-42-SEGREGATED_BALLAST-CEA5",
+      "canonical_key": "constant_excluding_fresh_water_cea5",
+      "source_label": "Constant (excluding fresh water):",
+      "source_trace_primary": "Certificados!E118",
+      "madre_value": "AV. Republica Do Chilie, 65-Centro, Rio de Janeiro, Brazil",
+      "match_source": "Madre de Deus row 118"
+    },
+    {
+      "canonical_field_id": "CV2-1-5-GENERAL_INFORMATIO-8AFF",
+      "canonical_key": "flag_port_of_registry",
+      "source_label": "Flag/Port of Registry:",
+      "source_trace_primary": "Modelo!B96",
+      "madre_value": "Bahamas/Nassau",
+      "match_source": "Madre de Deus row 96"
+    },
+    {
+      "canonical_field_id": "CV2-1-6-GENERAL_INFORMATIO-89F7",
+      "canonical_key": "call_sign_mmsi",
+      "source_label": "Call sign/MMSI:",
+      "source_trace_primary": "Modelo!B97",
+      "madre_value": "C6ZT2/311065400",
+      "match_source": "Madre de Deus row 97"
+    },
+    {
+      "canonical_field_id": "CV2-1-7-GENERAL_INFORMATIO-C82D",
+      "canonical_key": "vessel_s_contact_details_satcom_fax_email_etc",
+      "source_label": "Vessel’s contact details (satcom/fax/email etc.)",
+      "source_trace_primary": "PVQ+Q88 Clean!B103",
+      "madre_value": "Double Hull",
+      "match_source": "Madre de Deus row 103"
+    },
+    {
+      "canonical_field_id": "CV2-1-8A",
+      "canonical_key": "if_other_type_of_vessel_please_specify",
+      "source_label": "If other type of vessel, please specify:",
+      "source_trace_primary": "Modelo!B102",
+      "madre_value": "N/A",
+      "match_source": "Madre de Deus row 102"
+    },
+    {
+      "canonical_field_id": "CV2-10-11-DYNAMIC_POSITIONIN-A2D8",
+      "canonical_key": "how_many_operational_wind_sensors_of_total",
+      "source_label": "10.6 How many operational Wind Sensors of total?",
+      "source_trace_primary": "Modelo!B82",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 82"
+    },
+    {
+      "canonical_field_id": "CV2-10-11-IF_NO_THEN_PROVIDE-E8FD",
+      "canonical_key": "does_the_vessel_have_an_eiv_rating_number_if_yes_then_provide_eiv_rating",
+      "source_label": "Does the vessel have an EIV Rating number? If yes then provide EIV rating",
+      "source_trace_primary": "Q88 Rev.2!E560",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-10-12-DYNAMIC_POSITIONIN-16A3",
+      "canonical_key": "how_many_operational_wind_sensors_of_operational",
+      "source_label": "10.6 How many operational Wind Sensors of operational?",
+      "source_trace_primary": "Modelo!B83",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 83"
+    },
+    {
+      "canonical_field_id": "CV2-10-12-IF_NO_THEN_PROVIDE-48C6",
+      "canonical_key": "what_is_the_ships_nox_control_level_tier_i_tier_ii_and_tier_iii",
+      "source_label": "What is the ships NOx control level (Tier I, Tier II, and Tier III)?",
+      "source_trace_primary": "Q88 Rev.2!E563",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-10-13-LIST_OF_EQUIPMENT-42B3",
+      "canonical_key": "does_the_vessel_use_an_exhaust_gas_cleaning_system",
+      "source_label": "Does the vessel use an Exhaust Gas Cleaning System?",
+      "source_trace_primary": "Q88 Rev.2!E566",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-10-14-DYNAMIC_POSITIONIN-84E8",
+      "canonical_key": "remarks_any_additional_information_as_needed",
+      "source_label": "Remarks - Any additional information as needed",
+      "source_trace_primary": "Modelo!B85",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-10-14-LIST_OF_EQUIPMENT-AC30",
+      "canonical_key": "what_is_the_type_of_scrubber_fitted_as_part_of_the_egcs_onboard",
+      "source_label": "What is the type of scrubber fitted as part of the EGCS onboard?",
+      "source_trace_primary": "Q88 Rev.2!E567",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-10-3-LADEN_SPEED-3555",
+      "canonical_key": "bunker_tank_capacities",
+      "source_label": "Bunker Tank Capacities:",
+      "source_trace_primary": "Certificados!E521",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-10-3-PROPULSION-AB64",
+      "canonical_key": "bunker_tank_capacities_ab64",
+      "source_label": "Bunker Tank Capacities:",
+      "source_trace_primary": "PVQ+Q88!B616",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-10-4-IF_OTHER_THEN_SPEC-6388",
+      "canonical_key": "is_vessel_fitted_with_fixed_or_controllable_pitch_propeller_s",
+      "source_label": "Is vessel fitted with fixed or controllable pitch propeller(s):",
+      "source_trace_primary": "Q88 Rev.2!E541",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-10-7-DYNAMIC_POSITIONIN-7D7E",
+      "canonical_key": "how_many_operational_mrus_of_total",
+      "source_label": "10.4 How many operational MRUs of total?",
+      "source_trace_primary": "Modelo!B78",
+      "madre_value": 3,
+      "match_source": "Madre de Deus row 78"
+    },
+    {
+      "canonical_field_id": "CV2-10-8-BOILERS-DDDF",
+      "canonical_key": "does_the_vessel_have_an_eedi_rating_number_if_yes_then_provide_eedi_rati",
+      "source_label": "Does the vessel have an EEDI Rating number? If yes then provide EEDI rating:",
+      "source_trace_primary": "Q88 Rev.2!E551",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-10-8-DYNAMIC_POSITIONIN-9CE7",
+      "canonical_key": "how_many_operational_mrus_of_operational",
+      "source_label": "10.4 How many operational MRUs of operational?",
+      "source_trace_primary": "Modelo!B79",
+      "madre_value": 3,
+      "match_source": "Madre de Deus row 79"
+    },
+    {
+      "canonical_field_id": "CV2-10-9-IF_NO_THEN_PROVIDE-9BA4",
+      "canonical_key": "does_the_vessel_have_an_eexi_rating_number_if_yes_then_provide_eexi_rati",
+      "source_label": "Does the vessel have an EEXI Rating number? If yes then provide EEXI rating",
+      "source_trace_primary": "Q88 Rev.2!E554",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-11-1-SHIP_TO_SHIP_TRANS-2DB9",
+      "canonical_key": "does_vessel_comply_with_recommendations_contained_in_ocimf_ics_ship_to_s",
+      "source_label": "Does vessel comply with recommendations contained in OCIMF/ICS Ship To Ship Transfer Guide (Petroleum, Chemicals or Liquified Gas, as applicable)?",
+      "source_trace_primary": "PVQ+Q88!B663",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-11-10",
+      "canonical_key": "vessel_s_contact_details_fax",
+      "source_label": "Vessel’s contact details fax",
+      "source_trace_primary": "Modelo!B99",
+      "madre_value": "Fax: 783166754",
+      "match_source": "Madre de Deus row 99"
+    },
+    {
+      "canonical_field_id": "CV2-11-11",
+      "canonical_key": "vessel_s_contact_details_email",
+      "source_label": "Vessel’s contact details email",
+      "source_trace_primary": "Modelo!B100",
+      "madre_value": "Email: master@madre-de-deus.osm.no",
+      "match_source": "Madre de Deus row 100"
+    },
+    {
+      "canonical_field_id": "CV2-11-2-GENERAL_INFORMATIO-EA6D",
+      "canonical_key": "is_the_vessel_owner_manager_a_member_of_intertanko",
+      "source_label": "Is the vessel owner/manager a member of INTERTANKO?",
+      "source_trace_primary": "Modelo!B91",
+      "madre_value": "Yes ",
+      "match_source": "Madre de Deus row 91"
+    },
+    {
+      "canonical_field_id": "CV2-11-2-SHIP_TO_SHIP_TRANS-6861",
+      "canonical_key": "what_is_maximum_outreach_of_cranes_derricks_outboard_of_the_ship_s_side",
+      "source_label": "What is maximum outreach of cranes/derricks outboard of the ship’s side:",
+      "source_trace_primary": "PVQ+Q88!B664",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-11-3-GENERAL_INFORMATIO-5BF3",
+      "canonical_key": "if_the_ship_owner_manager_is_a_member_of_intertanko_please_provide_the_i",
+      "source_label": "If the ship owner/manager is a member of INTERTANKO, please provide the IMO number of the member organization",
+      "source_trace_primary": "Modelo!B92",
+      "madre_value": 1155822,
+      "match_source": "Madre de Deus row 92"
+    },
+    {
+      "canonical_field_id": "CV2-11-3-SHIP_TO_SHIP_TRANS-8CEA",
+      "canonical_key": "date_place_of_last_sts_operation",
+      "source_label": "Date/place of last STS operation:",
+      "source_trace_primary": "PVQ+Q88!B665",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-11-9",
+      "canonical_key": "vessel_s_contact_details_satcom",
+      "source_label": "Vessel’s contact details satcom",
+      "source_trace_primary": "Modelo!B98",
+      "madre_value": "Tel: 431101555",
+      "match_source": "Madre de Deus row 98"
+    },
+    {
+      "canonical_field_id": "CV2-12-10",
+      "canonical_key": "technical_operator_s_contact_details_fax",
+      "source_label": "Technical operator’s contact details fax",
+      "source_trace_primary": "Modelo!B115",
+      "madre_value": "Fax: +47 40479800",
+      "match_source": "Madre de Deus row 115"
+    },
+    {
+      "canonical_field_id": "CV2-12-11",
+      "canonical_key": "technical_operator_s_contact_details_email",
+      "source_label": "Technical operator’s contact details email",
+      "source_trace_primary": "Modelo!B116",
+      "madre_value": "Email: vetting@osmthome.com",
+      "match_source": "Madre de Deus row 116"
+    },
+    {
+      "canonical_field_id": "CV2-12-12",
+      "canonical_key": "commercial_operator_full_style",
+      "source_label": "Commercial operator - Full style:",
+      "source_trace_primary": "Modelo!B117",
+      "madre_value": "Petroleo Brasileiro S.A.-Petrobras, Brazil",
+      "match_source": "Madre de Deus row 117"
+    },
+    {
+      "canonical_field_id": "CV2-12-13",
+      "canonical_key": "commercial_operator_s_address",
+      "source_label": "Commercial operator's address:",
+      "source_trace_primary": "Modelo!B118",
+      "madre_value": "AV. Republica Do Chilie, 65-Centro, Rio de Janeiro, Brazil",
+      "match_source": "Madre de Deus row 118"
+    },
+    {
+      "canonical_field_id": "CV2-12-14",
+      "canonical_key": "commercial_operator_s_contact_details_satcom",
+      "source_label": "Commercial operator’s contact details satcom",
+      "source_trace_primary": "Modelo!B119",
+      "madre_value": "Tel: 552121669224",
+      "match_source": "Madre de Deus row 119"
+    },
+    {
+      "canonical_field_id": "CV2-12-15",
+      "canonical_key": "commercial_operator_s_contact_details_fax",
+      "source_label": "Commercial operator’s contact details fax",
+      "source_trace_primary": "Modelo!B120",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-12-16",
+      "canonical_key": "commercial_operator_s_contact_details_email",
+      "source_label": "Commercial operator’s contact details email",
+      "source_trace_primary": "Modelo!B121",
+      "madre_value": "Email: operation.getram5@petrobras.com.br",
+      "match_source": "Madre de Deus row 121"
+    },
+    {
+      "canonical_field_id": "CV2-12-17",
+      "canonical_key": "disponent_owner_full_style",
+      "source_label": "Disponent owner - Full style:",
+      "source_trace_primary": "Modelo!B122",
+      "madre_value": "Fronape International Company",
+      "match_source": "Madre de Deus row 122"
+    },
+    {
+      "canonical_field_id": "CV2-12-18",
+      "canonical_key": "disponent_owner_s_address",
+      "source_label": "Disponent owner 's address:",
+      "source_trace_primary": "Modelo!B123",
+      "madre_value": "P.O. Box 714, George Town Islands (or) Petrobras Transporte S.A.- Transpetro Av. Presidente Vargas, 328 20091-060, Rio De Janeiro, RJ, Brazil",
+      "match_source": "Madre de Deus row 123"
+    },
+    {
+      "canonical_field_id": "CV2-12-19",
+      "canonical_key": "disponent_owner_s_contact_details_satcom",
+      "source_label": "Disponent owner ’s contact details satcom",
+      "source_trace_primary": "Modelo!B124",
+      "madre_value": "Tel: +55 21 3211 7451",
+      "match_source": "Madre de Deus row 124"
+    },
+    {
+      "canonical_field_id": "CV2-12-2-OWNERSHIP_AND_OPER-2EAF",
+      "canonical_key": "owner_s_address",
+      "source_label": "Owner's address:",
+      "source_trace_primary": "Modelo!B107",
+      "madre_value": "5106, Ovre Ervik, Norway",
+      "match_source": "Madre de Deus row 107"
+    },
+    {
+      "canonical_field_id": "CV2-12-20",
+      "canonical_key": "disponent_owner_s_contact_details_fax",
+      "source_label": "Disponent owner ’s contact details fax",
+      "source_trace_primary": "Modelo!B125",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-12-21",
+      "canonical_key": "disponent_owner_s_contact_details_email",
+      "source_label": "Disponent owner ’s contact details email",
+      "source_trace_primary": "Modelo!B126",
+      "madre_value": "Email: operation.getram5@petrobras.com.br",
+      "match_source": "Madre de Deus row 126"
+    },
+    {
+      "canonical_field_id": "CV2-12-3-OWNERSHIP_AND_OPER-6208",
+      "canonical_key": "owner_s_contact_details_satcom",
+      "source_label": "Owner’s contact details satcom",
+      "source_trace_primary": "Modelo!B108",
+      "madre_value": "Tel: +47 55 33 35 60",
+      "match_source": "Madre de Deus row 108"
+    },
+    {
+      "canonical_field_id": "CV2-12-4-OWNERSHIP_AND_OPER-5820",
+      "canonical_key": "owner_s_contact_details_fax",
+      "source_label": "Owner’s contact details fax",
+      "source_trace_primary": "Modelo!B109",
+      "madre_value": "Fax: +47 55 33 35 75",
+      "match_source": "Madre de Deus row 109"
+    },
+    {
+      "canonical_field_id": "CV2-12-5-OWNERSHIP_AND_OPER-E650",
+      "canonical_key": "owner_s_contact_details_email",
+      "source_label": "Owner’s contact details email",
+      "source_trace_primary": "Modelo!B110",
+      "madre_value": "Email: bjn@walco.no",
+      "match_source": "Madre de Deus row 110"
+    },
+    {
+      "canonical_field_id": "CV2-12-6-1-APPROVALS_ARE_NOT-34A3",
+      "canonical_key": "date_place_last_cdi_inspection",
+      "source_label": "Date/Place last CDI inspection:",
+      "source_trace_primary": "Q88 Rev.2!E589",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-12-6-APPROVALS_ARE_NOT-79FC",
+      "canonical_key": "date_place_last_sire_inspection_79fc",
+      "source_label": "Date/Place last SIRE inspection:",
+      "source_trace_primary": "Q88 Rev.2!E588",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-12-7-APPROVALS_ARE_NOT-3628",
+      "canonical_key": "additional_information_relating_to_features_of_the_ship_or_operational_c",
+      "source_label": "Additional information relating to features of the ship or operational characteristics:",
+      "source_trace_primary": "Q88 Rev.2!E590",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-12-7-OWNERSHIP_AND_OPER-A63C",
+      "canonical_key": "technical_operator_full_style",
+      "source_label": "Technical operator - Full style:",
+      "source_trace_primary": "Modelo!B112",
+      "madre_value": "OSM Ship Management AS",
+      "match_source": "Madre de Deus row 112"
+    },
+    {
+      "canonical_field_id": "CV2-12-8",
+      "canonical_key": "technical_operator_s_address",
+      "source_label": "Technical operator's address:",
+      "source_trace_primary": "Modelo!B113",
+      "madre_value": "Svinoddveien 12, 4836 Arendal, Norway",
+      "match_source": "Madre de Deus row 113"
+    },
+    {
+      "canonical_field_id": "CV2-12-9",
+      "canonical_key": "technical_operator_s_contact_details_satcom",
+      "source_label": "Technical operator’s contact details satcom",
+      "source_trace_primary": "Modelo!B114",
+      "madre_value": "Tel: +47 41492000",
+      "match_source": "Madre de Deus row 114"
+    },
+    {
+      "canonical_field_id": "CV2-15-10-DIMENSIONS-9FA2",
+      "canonical_key": "parallel_body_distances_normal_ballast",
+      "source_label": "Parallel body distances - Normal Ballast",
+      "source_trace_primary": "Modelo!B173",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-15-5",
+      "canonical_key": "keel_to_masthead_ktm_keel_to_masthead_ktm_in_collapsed_condition_if_appl",
+      "source_label": "Keel to masthead (KTM)/ Keel to masthead (KTM) in collapsed condition, if applicable:",
+      "source_trace_primary": "Modelo!B168",
+      "madre_value": "22.50 Metres",
+      "match_source": "Madre de Deus row 168"
+    },
+    {
+      "canonical_field_id": "CV2-15-9-DIMENSIONS-5C2D",
+      "canonical_key": "parallel_body_distances_lightship",
+      "source_label": "Parallel body distances - Lightship",
+      "source_trace_primary": "Modelo!B172",
+      "madre_value": "115.75 Metres",
+      "match_source": "Madre de Deus row 172"
+    },
+    {
+      "canonical_field_id": "CV2-16-5",
+      "canonical_key": "gross_scgt_net_scnt",
+      "source_label": "Gross (SCGT)/Net (SCNT)",
+      "source_trace_primary": "Modelo!B190",
+      "madre_value": 64133.44,
+      "match_source": "Madre de Deus row 190"
+    },
+    {
+      "canonical_field_id": "CV2-16-6",
+      "canonical_key": "is_vessel_fitted_for_transit_of_panama_canal",
+      "source_label": "Is vessel fitted for transit of Panama canal?",
+      "source_trace_primary": "Modelo!B191",
+      "madre_value": 56679.38,
+      "match_source": "Madre de Deus row 191"
+    },
+    {
+      "canonical_field_id": "CV2-32-2",
+      "canonical_key": "does_vessel_meet_the_requirements_of_marpol_annex_i_reg_18_2",
+      "source_label": "Does vessel meet the requirements of MARPOL Annex I Reg 18.2:",
+      "source_trace_primary": "Modelo!B294",
+      "madre_value": "Solid",
+      "match_source": "Madre de Deus row 294"
+    },
+    {
+      "canonical_field_id": "CV2-4-2-FOR_USA_CALLS-E051",
+      "canonical_key": "qualified_individual_qi_full_style",
+      "source_label": "Qualified individual (QI) - Full style:",
+      "source_trace_primary": "Certificados!E178",
+      "madre_value": "59.80 Metres",
+      "match_source": "Madre de Deus row 178"
+    },
+    {
+      "canonical_field_id": "CV2-4-3-FOR_USA_CALLS-5919",
+      "canonical_key": "oil_spill_response_organization_osro_full_style",
+      "source_label": "Oil Spill Response Organization (OSRO) - Full style:",
+      "source_trace_primary": "Certificados!E185",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-4-4-FOR_USA_CALLS-2F28",
+      "canonical_key": "salvage_and_marine_firefighting_services_smff_full_style",
+      "source_label": "Salvage and Marine Firefighting Services (SMFF) - Full Style:",
+      "source_trace_primary": "Certificados!E192",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-5-1-BOW_LOADING_SYSTEM-E029",
+      "canonical_key": "is_the_hose_handling_system_working_properly",
+      "source_label": "5.1 Is the HOSE HANDLING SYSTEM working properly?",
+      "source_trace_primary": "Modelo!B36",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 36"
+    },
+    {
+      "canonical_field_id": "CV2-5-1-SAFETY_HELICOPTER-3C85",
+      "canonical_key": "is_the_vessel_operated_under_a_quality_management_system_if_yes_what_typ",
+      "source_label": "Is the vessel operated under a Quality Management System? If Yes, what type of system? (ISO9001 or IMO Resolution A.741(18) as amended):",
+      "source_trace_primary": "PVQ+Q88!B290",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-5-2-1",
+      "canonical_key": "if_yes_state_whether_winching_or_landing_area_provided",
+      "source_label": "If Yes, state whether winching or landing area provided:",
+      "source_trace_primary": "PVQ+Q88!B293",
+      "madre_value": "Solid",
+      "match_source": "Madre de Deus row 293"
+    },
+    {
+      "canonical_field_id": "CV2-5-2-2",
+      "canonical_key": "if_yes_what_is_the_diameter_of_the_circle_provided",
+      "source_label": "If Yes, what is the diameter of the circle provided:",
+      "source_trace_primary": "PVQ+Q88!B294",
+      "madre_value": "Solid",
+      "match_source": "Madre de Deus row 294"
+    },
+    {
+      "canonical_field_id": "CV2-5-2-BOW_LOADING_SYSTEM-52E7",
+      "canonical_key": "is_the_hose_coupler_working_properly_and_without_any_evidences_of_leakag",
+      "source_label": "5.2 Is the HOSE COUPLER working properly and without any evidences of leakages or misalignments?",
+      "source_trace_primary": "Modelo!B37",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 37"
+    },
+    {
+      "canonical_field_id": "CV2-5-2-SAFETY_HELICOPTER-6C8D",
+      "canonical_key": "can_the_ship_comply_with_the_ics_helicopter_guidelines",
+      "source_label": "Can the ship comply with the ICS Helicopter Guidelines?",
+      "source_trace_primary": "PVQ+Q88!B292",
+      "madre_value": "Yes",
+      "match_source": "Madre de Deus row 292"
+    },
+    {
+      "canonical_field_id": "CV2-5-3-BOW_LOADING_SYSTEM-D7FF",
+      "canonical_key": "is_the_hawser_handling_system_roller_fairlead_and_chain_stopper_operatio",
+      "source_label": "5.3 Is the HAWSER HANDLING SYSTEM roller fairlead and chain stopper operational?",
+      "source_trace_primary": "Modelo!B38",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 38"
+    },
+    {
+      "canonical_field_id": "CV2-6-2-OFFSHORE_TELEMETRY-C3C5",
+      "canonical_key": "is_the_rtu_radio_link_available_to_communicate_with_fpso",
+      "source_label": "6.2 Is the RTU radio link available to communicate with FPSO?",
+      "source_trace_primary": "Modelo!B43",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 43"
+    },
+    {
+      "canonical_field_id": "CV2-7-2-BALLAST-6D34",
+      "canonical_key": "does_the_vessel_comply_with_d1_or_d2_performance_standards_6d34",
+      "source_label": "Does the vessel comply with D1 or D2 performance standards?",
+      "source_trace_primary": "PVQ+Q88!B337",
+      "madre_value": "66.0 °C / 150.8 °F",
+      "match_source": "Madre de Deus row 337"
+    },
+    {
+      "canonical_field_id": "CV2-7-2-PROPULSION_SYSTEM-16B3",
+      "canonical_key": "is_are_the_main_propeller_s_working_properly",
+      "source_label": "Is/Are the MAIN PROPELLER(S) working properly?",
+      "source_trace_primary": "Modelo!B47",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 47"
+    },
+    {
+      "canonical_field_id": "CV2-7-3-BALLAST-3AA9",
+      "canonical_key": "does_the_vessel_have_a_ballast_water_treatment_system_bwts_fitted_3aa9",
+      "source_label": "Does the vessel have a Ballast Water Treatment System (BWTS) fitted?",
+      "source_trace_primary": "PVQ+Q88!B338",
+      "madre_value": "50 °C / 122 °F",
+      "match_source": "Madre de Deus row 338"
+    },
+    {
+      "canonical_field_id": "CV2-7-3-PROPULSION_SYSTEM-39EA",
+      "canonical_key": "is_are_the_cpp_controllable_pitch_system_s_working_properly",
+      "source_label": "Is/Are the CPP - CONTROLLABLE PITCH SYSTEM(S) working properly?",
+      "source_trace_primary": "Modelo!B48",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 48"
+    },
+    {
+      "canonical_field_id": "CV2-7-4-PROPULSION_SYSTEM-4708",
+      "canonical_key": "is_are_the_zps_zero_pitch_system_s_working_properly",
+      "source_label": "Is/Are the ZPS - ZERO PITCH SYSTEM(S) working properly?",
+      "source_trace_primary": "Modelo!B49",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 49"
+    },
+    {
+      "canonical_field_id": "CV2-7-5-PROPULSION_SYSTEM-EB0E",
+      "canonical_key": "is_are_the_rudder_s_working_properly",
+      "source_label": "7.5 Is/Are the RUDDER(S) working properly?",
+      "source_trace_primary": "Modelo!B50",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 50"
+    },
+    {
+      "canonical_field_id": "CV2-8-1-POWER_GENERATION_M-6471",
+      "canonical_key": "are_all_the_gensets_including_its_instrumentation_control_and_automation",
+      "source_label": "Are all the GENSETs, including its instrumentation, control and automation systems, working properly?",
+      "source_trace_primary": "Modelo!B56",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 56"
+    },
+    {
+      "canonical_field_id": "CV2-8-13-DOES_THE_SHIP_POSS-E8FA",
+      "canonical_key": "number_size_type_of_vecs_reducers",
+      "source_label": "Number/size/type of VECS reducers:",
+      "source_trace_primary": "Q88 Rev.2!E324",
+      "madre_value": "17.32 Metres",
+      "match_source": "Madre de Deus row 324"
+    },
+    {
+      "canonical_field_id": "CV2-8-14-DOES_THE_SHIP_POSS-41B0",
+      "canonical_key": "state_what_type_of_venting_system_is_fitted_41b0",
+      "source_label": "State what type of venting system is fitted:",
+      "source_trace_primary": "Q88 Rev.2!E326",
+      "madre_value": 4,
+      "match_source": "Madre de Deus row 326"
+    },
+    {
+      "canonical_field_id": "CV2-8-2-POWER_GENERATION_M-CABC",
+      "canonical_key": "is_the_emergency_genset_including_its_instrumentation_control_and_automa",
+      "source_label": "Is the EMERGENCY GENSET, including its instrumentation, control and automation system, working properly?",
+      "source_trace_primary": "Modelo!B57",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 57"
+    },
+    {
+      "canonical_field_id": "CV2-9-14-DB00510-E02D",
+      "canonical_key": "does_the_vessel_meet_the_recommendations_in_the_latest_edition_of_ocimf_e02d",
+      "source_label": "Does the vessel meet the recommendations in the latest edition of OCIMF 'Recommendations for Equipment Employed in the Bow Mooring of Conventional Tankers at Single Point Moorings (SPM)’:?",
+      "source_trace_primary": "PVQ+Q88 Clean!B348",
+      "madre_value": "Yes",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-9-14-GANGWAY_PARA_O_CTV-0E43",
+      "canonical_key": "does_the_vessel_meet_the_recommendations_in_the_latest_edition_of_ocimf_0e43",
+      "source_label": "Does the vessel meet the recommendations in the latest edition of OCIMF 'Recommendations for Equipment Employed in the Bow Mooring of Conventional Tankers at Single Point Moorings (SPM)’:?",
+      "source_trace_primary": "Q88 Rev.2!E507",
+      "madre_value": "Yes",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-9-17-STBD-1698",
+      "canonical_key": "distance_between_the_bow_fairlead_and_chain_stopper_bracket_1698",
+      "source_label": "Distance between the bow fairlead and chain stopper/bracket:",
+      "source_trace_primary": "Certificados!E511",
+      "madre_value": "6.65 Metres",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-9-18-STBD-6982",
+      "canonical_key": "is_bow_chock_and_or_fairlead_of_enclosed_type_of_ocimf_recommended_size_6982",
+      "source_label": "Is bow chock and/or fairlead of enclosed type of OCIMF recommended size",
+      "source_trace_primary": "Certificados!E512",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE01-ANOCONSTRUCAO",
+      "canonical_key": "anoConstrucao",
+      "source_label": "Ano de Construcao",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE01-APLICACAO",
+      "canonical_key": "aplicacao",
+      "source_label": "Aplicacao",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE01-BANDEIRA",
+      "canonical_key": "bandeira",
+      "source_label": "Bandeira",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE01-MMSI",
+      "canonical_key": "mmsi",
+      "source_label": "MMSI",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE01-NOMENAVIO",
+      "canonical_key": "nomeNavio",
+      "source_label": "Nome do Navio",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE01-STATUSNAVIO",
+      "canonical_key": "statusNavio",
+      "source_label": "Status do Navio",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE01-TIPOOPERACAO",
+      "canonical_key": "tipoOperacao",
+      "source_label": "Tipo de Operacao",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE02-CARGOPUMPS",
+      "canonical_key": "cargoPumps",
+      "source_label": "Bombas de carga",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "UI-PAGE02-IGS",
+      "canonical_key": "igs",
+      "source_label": "IGS",
+      "source_trace_primary": "CURRENT_CANONICAL_CONTRACT",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "VF-10-1-13A7",
+      "canonical_key": "speed",
+      "source_label": "Speed",
+      "source_trace_primary": "PVQ+Q88!B611",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "VF-10-1-97BD",
+      "canonical_key": "does_the_vessel_have_a_cii_rating_number_if_yes_then_provide_cii_rating",
+      "source_label": "Does the vessel have a CII Rating number? If yes then provide CII rating:",
+      "source_trace_primary": "Q88 Rev.2!E557",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "VF-10-1-DCE5",
+      "canonical_key": "does_the_vessel_have_a_cii_rating_number_if_yes_then_provide_cii_rating_dce5",
+      "source_label": "Does the vessel have a CII Rating number? If yes then provide CII rating:",
+      "source_trace_primary": "PVQ+Q88!B650",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "VF-12-6",
+      "canonical_key": "imo_number",
+      "source_label": "IMO Number",
+      "source_trace_primary": "Modelo!B111",
+      "madre_value": "IMO: 4169250",
+      "match_source": "Madre de Deus row 111"
+    },
+    {
+      "canonical_field_id": "VF-7-1",
+      "canonical_key": "ballast_handling_data",
+      "source_label": "Ballast Handling Data",
+      "source_trace_primary": "Certificados!E240",
+      "madre_value": "Nov 09, 2025",
+      "match_source": "Madre de Deus row 240"
+    },
+    {
+      "canonical_field_id": "CV2-1-1-GENERAL_INFORMATIO-9CEE",
+      "canonical_key": "registered_owner_full_style_9cee",
+      "source_label": "Registered owner - Full style:",
+      "source_trace_primary": "PVQ+Q88 Clean!B108",
+      "madre_value": "Tel: +47 55 33 35 60",
+      "match_source": "Madre de Deus row 108"
+    },
+    {
+      "canonical_field_id": "CV2-1-15",
+      "canonical_key": "p_i_club_pollution_liability_coverage_expiration_date",
+      "source_label": "P & I Club pollution liability coverage/expiration date:",
+      "source_trace_primary": "PVQ+Q88 Clean!B114",
+      "madre_value": "Tel: +47 41492000",
+      "match_source": "Madre de Deus row 114"
+    },
+    {
+      "canonical_field_id": "CV2-1-39-GENERAL_INFORMATIO-1FD2",
+      "canonical_key": "loadline",
+      "source_label": "Loadline",
+      "source_trace_primary": "PVQ+Q88 Clean!B144",
+      "madre_value": "A1, BLU, Oil Carrier, AMS, ACCU, DPS-2, NBLES, VEC, TCM, BWE, CSR, SPMA (Add. Notation: POT, ESP, UWILD, CPS)",
+      "match_source": "Madre de Deus row 144"
+    },
+    {
+      "canonical_field_id": "CV2-1-8-GENERAL_INFORMATIO-F74D",
+      "canonical_key": "type_of_vessel_as_described_in_form_a_or_form_b_q1_11_of_the_ioppc",
+      "source_label": "Type of vessel (as described in Form A or Form B Q1.11 of the IOPPC):",
+      "source_trace_primary": "Modelo!B101",
+      "madre_value": "Oil Tanker",
+      "match_source": "Madre de Deus row 101"
+    },
+    {
+      "canonical_field_id": "CV2-11-4-SHIP_TO_SHIP_TRANS-F570",
+      "canonical_key": "does_the_vessel_have_a_ship_specific_sts_plan",
+      "source_label": "Does the vessel have a ship specific STS plan:",
+      "source_trace_primary": "PVQ+Q88!B666",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-12-1-OWNERSHIP_AND_OPER-F000",
+      "canonical_key": "registered_owner_full_style",
+      "source_label": "Registered owner - Full style:",
+      "source_trace_primary": "Modelo!B106",
+      "madre_value": "Viken Shuttle AS",
+      "match_source": "Madre de Deus row 106"
+    },
+    {
+      "canonical_field_id": "CV2-13-6",
+      "canonical_key": "p_i_club_pollution_liability_coverage",
+      "source_label": "P & I Club pollution liability coverage",
+      "source_trace_primary": "Modelo!B134",
+      "madre_value": "If other P&I - specify: N/A",
+      "match_source": "Madre de Deus row 134"
+    },
+    {
+      "canonical_field_id": "CV2-13-7",
+      "canonical_key": "what_is_the_coverage_liability_amount_for_pollution_of_the_p_i_club_us",
+      "source_label": "What is the coverage/liability amount for pollution of the P & I Club (US$)?",
+      "source_trace_primary": "Modelo!B135",
+      "madre_value": "1,000,000,000 US$ ",
+      "match_source": "Madre de Deus row 135"
+    },
+    {
+      "canonical_field_id": "CV2-13-8",
+      "canonical_key": "what_is_the_expiration_date_of_the_club_p_i_pollution_coverage_responsib",
+      "source_label": "What is the expiration date of the Club P & I pollution coverage/responsibility?",
+      "source_trace_primary": "Modelo!B136",
+      "madre_value": "Feb 20, 2027",
+      "match_source": "Madre de Deus row 136"
+    },
+    {
+      "canonical_field_id": "CV2-17-1",
+      "canonical_key": "loadline_freeboard_summer",
+      "source_label": "Loadline Freeboard Summer",
+      "source_trace_primary": "Modelo!B195",
+      "madre_value": "7.45 Metres",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-17-10",
+      "canonical_key": "loadline_draft_tropical",
+      "source_label": "Loadline Draft Tropical",
+      "source_trace_primary": "Modelo!B204",
+      "madre_value": "7.14 Metres",
+      "match_source": "Madre de Deus row 204"
+    },
+    {
+      "canonical_field_id": "CV2-17-11",
+      "canonical_key": "loadline_deadweight_tropical",
+      "source_label": "Loadline Deadweight Tropical",
+      "source_trace_primary": "Modelo!B205",
+      "madre_value": "15,384.00 Metres",
+      "match_source": "Madre de Deus row 205"
+    },
+    {
+      "canonical_field_id": "CV2-17-12",
+      "canonical_key": "loadline_displacement_tropical",
+      "source_label": "Loadline Displacement Tropical",
+      "source_trace_primary": "Modelo!B206",
+      "madre_value": "107,865.00 Metric Tonnes",
+      "match_source": "Madre de Deus row 206"
+    },
+    {
+      "canonical_field_id": "CV2-17-13",
+      "canonical_key": "loadline_freeboard_normal_loaded_condition",
+      "source_label": "Loadline Freeboard Normal loaded condition",
+      "source_trace_primary": "Modelo!B207",
+      "madre_value": "127,699.00 Metric Tonnes",
+      "match_source": "Madre de Deus row 207"
+    },
+    {
+      "canonical_field_id": "CV2-17-14",
+      "canonical_key": "loadline_draft_normal_loaded_condition",
+      "source_label": "Loadline Draft Normal loaded condition",
+      "source_trace_primary": "Modelo!B208",
+      "madre_value": "7.38 Metres",
+      "match_source": "Madre de Deus row 208"
+    },
+    {
+      "canonical_field_id": "CV2-17-15",
+      "canonical_key": "loadline_deadweight_normal_loaded_condition",
+      "source_label": "Loadline Deadweight Normal loaded condition",
+      "source_trace_primary": "Modelo!B209",
+      "madre_value": "15.12 Metres",
+      "match_source": "Madre de Deus row 209"
+    },
+    {
+      "canonical_field_id": "CV2-17-16",
+      "canonical_key": "loadline_displacement_normal_loaded_condition",
+      "source_label": "Loadline Displacement Normal loaded condition",
+      "source_trace_primary": "Modelo!B210",
+      "madre_value": "104,999.00 Metric Tonnes",
+      "match_source": "Madre de Deus row 210"
+    },
+    {
+      "canonical_field_id": "CV2-17-17",
+      "canonical_key": "loadline_freeboard_lightship",
+      "source_label": "Loadline Freeboard Lightship",
+      "source_trace_primary": "Modelo!B211",
+      "madre_value": "124,998.20 Metric Tonnes",
+      "match_source": "Madre de Deus row 211"
+    },
+    {
+      "canonical_field_id": "CV2-17-18",
+      "canonical_key": "loadline_draft_lightship",
+      "source_label": "Loadline Draft Lightship",
+      "source_trace_primary": "Modelo!B212",
+      "madre_value": "15.27 Metres",
+      "match_source": "Madre de Deus row 212"
+    },
+    {
+      "canonical_field_id": "CV2-17-19",
+      "canonical_key": "loadline_deadweight_lightship",
+      "source_label": "Loadline Deadweight Lightship",
+      "source_trace_primary": "Modelo!B213",
+      "madre_value": "7.24 Metres",
+      "match_source": "Madre de Deus row 213"
+    },
+    {
+      "canonical_field_id": "CV2-17-2",
+      "canonical_key": "loadline_draft_summer",
+      "source_label": "Loadline Draft Summer",
+      "source_trace_primary": "Modelo!B196",
+      "madre_value": "7.45 Metres",
+      "match_source": "Madre de Deus row 196"
+    },
+    {
+      "canonical_field_id": "CV2-17-20",
+      "canonical_key": "loadline_displacement_lightship",
+      "source_label": "Loadline Displacement Lightship",
+      "source_trace_primary": "Modelo!B214",
+      "madre_value": "-",
+      "match_source": "Madre de Deus row 214"
+    },
+    {
+      "canonical_field_id": "CV2-17-21",
+      "canonical_key": "loadline_freeboard_normal_ballast_condition",
+      "source_label": "Loadline Freeboard Normal Ballast Condition",
+      "source_trace_primary": "Modelo!B215",
+      "madre_value": "54,619.30 Metric Tonnes",
+      "match_source": "Madre de Deus row 215"
+    },
+    {
+      "canonical_field_id": "CV2-17-22",
+      "canonical_key": "loadline_draft_normal_ballast_condition",
+      "source_label": "Loadline Draft Normal Ballast Condition",
+      "source_trace_primary": "Modelo!B216",
+      "madre_value": "15.36 Metres",
+      "match_source": "Madre de Deus row 216"
+    },
+    {
+      "canonical_field_id": "CV2-17-23",
+      "canonical_key": "loadline_deadweight_normal_ballast_condition",
+      "source_label": "Loadline Deadweight Normal Ballast Condition",
+      "source_trace_primary": "Modelo!B217",
+      "madre_value": "7.16 Metres",
+      "match_source": "Madre de Deus row 217"
+    },
+    {
+      "canonical_field_id": "CV2-17-24",
+      "canonical_key": "loadline_displacement_normal_ballast_condition",
+      "source_label": "Loadline Displacement Normal Ballast Condition",
+      "source_trace_primary": "Modelo!B218",
+      "madre_value": "34,065.00 Metric Tonnes",
+      "match_source": "Madre de Deus row 218"
+    },
+    {
+      "canonical_field_id": "CV2-17-25",
+      "canonical_key": "loadline_deadweight_fwa_tpc_at_summer_draf",
+      "source_label": "Loadline Deadweight FWA/TPC at summer draf",
+      "source_trace_primary": "Modelo!B219",
+      "madre_value": "53,899.00 Metric Tonnes",
+      "match_source": "Madre de Deus row 219"
+    },
+    {
+      "canonical_field_id": "CV2-17-26",
+      "canonical_key": "loadline_displacement_fwa_tpc_at_summer_draf",
+      "source_label": "Loadline Displacement FWA/TPC at summer draf",
+      "source_trace_primary": "Modelo!B220",
+      "madre_value": "338.00 Millimetres",
+      "match_source": "Madre de Deus row 220"
+    },
+    {
+      "canonical_field_id": "CV2-17-27",
+      "canonical_key": "have_multiple_deadweights_been_assigned",
+      "source_label": "Have multiple deadweights been assigned?",
+      "source_trace_primary": "Modelo!B221",
+      "madre_value": "92.40 Metric Tonnes",
+      "match_source": "Madre de Deus row 221"
+    },
+    {
+      "canonical_field_id": "CV2-17-28",
+      "canonical_key": "how_many_dead_weights_have_been_assigned",
+      "source_label": "How many dead weights have been assigned?",
+      "source_trace_primary": "Modelo!B222",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 222"
+    },
+    {
+      "canonical_field_id": "CV2-17-29",
+      "canonical_key": "if_have_been_multiple_deadweights_assigned_list_all_of_them",
+      "source_label": "If Have been multiple deadweights assigned, list all of them",
+      "source_trace_primary": "Modelo!B223",
+      "madre_value": 2,
+      "match_source": "Madre de Deus row 223"
+    },
+    {
+      "canonical_field_id": "CV2-17-3",
+      "canonical_key": "loadline_deadweight_summer",
+      "source_label": "Loadline Deadweight Summer",
+      "source_trace_primary": "Modelo!B197",
+      "madre_value": "15.07 Metres",
+      "match_source": "Madre de Deus row 197"
+    },
+    {
+      "canonical_field_id": "CV2-17-30",
+      "canonical_key": "constant_excluding_fresh_water",
+      "source_label": "Constant (excluding fresh water):",
+      "source_trace_primary": "Modelo!B224",
+      "madre_value": "Assigned DWT 1: 104,999.00\nAssigned DWT 2: 105,283.10",
+      "match_source": "Madre de Deus row 224"
+    },
+    {
+      "canonical_field_id": "CV2-17-32",
+      "canonical_key": "what_is_the_max_height_of_mast_above_waterline_air_draft_in_the_summer_d",
+      "source_label": "What is the max height of mast above waterline (air draft) in the Summer deadweight full mast?",
+      "source_trace_primary": "Modelo!B226",
+      "madre_value": "Open Sea:THe minimum UKC in the dynamic condition is 50% of the static draft \nRestricted waters/Port approaches/Harbour transits: The minimum UKC in the dynamic conditions is 10% of the static draft Restricted waters/Port approaches/Harbour transits: The minimum UKC in the dynamic conditions is 10% of the static draft",
+      "match_source": "Madre de Deus row 226"
+    },
+    {
+      "canonical_field_id": "CV2-17-33",
+      "canonical_key": "what_is_the_max_height_of_mast_above_waterline_air_draft_in_the_normal_b",
+      "source_label": "What is the max height of mast above waterline (air draft) in the Normal ballast full mast?",
+      "source_trace_primary": "Modelo!B227",
+      "madre_value": "37.519 Metres",
+      "match_source": "Madre de Deus row 227"
+    },
+    {
+      "canonical_field_id": "CV2-17-34",
+      "canonical_key": "what_is_the_max_height_of_mast_above_waterline_air_draft_in_the_lightshi",
+      "source_label": "What is the max height of mast above waterline (air draft) in the Lightship full mast?",
+      "source_trace_primary": "Modelo!B228",
+      "madre_value": "0 metres",
+      "match_source": "Madre de Deus row 228"
+    },
+    {
+      "canonical_field_id": "CV2-17-4",
+      "canonical_key": "loadline_displacement_summer",
+      "source_label": "Loadline Displacement Summer",
+      "source_trace_primary": "Modelo!B198",
+      "madre_value": "104,999.00 Metric Tonnes",
+      "match_source": "Madre de Deus row 198"
+    },
+    {
+      "canonical_field_id": "CV2-17-5",
+      "canonical_key": "loadline_freeboard_winter",
+      "source_label": "Loadline Freeboard Winter",
+      "source_trace_primary": "Modelo!B199",
+      "madre_value": "124,615.00 Metric Tonnes",
+      "match_source": "Madre de Deus row 199"
+    },
+    {
+      "canonical_field_id": "CV2-17-6",
+      "canonical_key": "loadline_draft_winter",
+      "source_label": "Loadline Draft Winter",
+      "source_trace_primary": "Modelo!B200",
+      "madre_value": "7.76 Metres",
+      "match_source": "Madre de Deus row 200"
+    },
+    {
+      "canonical_field_id": "CV2-17-7",
+      "canonical_key": "loadline_deadweight_winter",
+      "source_label": "Loadline Deadweight Winter",
+      "source_trace_primary": "Modelo!B201",
+      "madre_value": "14.75 Metres",
+      "match_source": "Madre de Deus row 201"
+    },
+    {
+      "canonical_field_id": "CV2-17-8",
+      "canonical_key": "loadline_displacement_winter",
+      "source_label": "Loadline Displacement Winter",
+      "source_trace_primary": "Modelo!B202",
+      "madre_value": "102,139.00 Metric Tonnes",
+      "match_source": "Madre de Deus row 202"
+    },
+    {
+      "canonical_field_id": "CV2-17-9",
+      "canonical_key": "loadline_freeboard_tropical",
+      "source_label": "Loadline Freeboard Tropical",
+      "source_trace_primary": "Modelo!B203",
+      "madre_value": "121,973.00 Metric Tonnes",
+      "match_source": "Madre de Deus row 203"
+    },
+    {
+      "canonical_field_id": "CV2-2-1-CERTIFICATES-40CA",
+      "canonical_key": "safety_equipment_certificate_sec",
+      "source_label": "Safety Equipment Certificate (SEC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B162",
+      "madre_value": 0,
+      "match_source": "Madre de Deus row 162"
+    },
+    {
+      "canonical_field_id": "CV2-2-1-CERTIFICATES-E483",
+      "canonical_key": "document_of_compliance_doc",
+      "source_label": "Document of Compliance (DOC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B171",
+      "madre_value": "129.00 Metres",
+      "match_source": "Madre de Deus row 171"
+    },
+    {
+      "canonical_field_id": "CV2-2-11",
+      "canonical_key": "uscg_certificate_of_compliance_uscgcoc",
+      "source_label": "USCG Certificate of Compliance(USCGCOC):",
+      "source_trace_primary": "PVQ+Q88!B231",
+      "madre_value": "49.65 Metre",
+      "match_source": "Madre de Deus row 231"
+    },
+    {
+      "canonical_field_id": "CV2-2-12",
+      "canonical_key": "civil_liability_convention_clc_1992_certificate",
+      "source_label": "Civil Liability Convention (CLC) 1992 Certificate:",
+      "source_trace_primary": "PVQ+Q88 Clean!B172",
+      "madre_value": "115.75 Metres",
+      "match_source": "Madre de Deus row 172"
+    },
+    {
+      "canonical_field_id": "CV2-2-13",
+      "canonical_key": "civil_liability_for_bunker_oil_pollution_damage_convention_clbc_certific_8a74",
+      "source_label": "Civil Liability for Bunker Oil Pollution Damage Convention (CLBC) Certificate:",
+      "source_trace_primary": "PVQ+Q88 Clean!B173",
+      "madre_value": "Feb 04, 2026",
+      "match_source": "Madre label fuzzy"
+    },
+    {
+      "canonical_field_id": "CV2-2-14",
+      "canonical_key": "liability_for_the_removal_of_wrecks_certificate_wrc",
+      "source_label": "Liability for the Removal of Wrecks Certificate (WRC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B174",
+      "madre_value": "Feb 04, 2026",
+      "match_source": "Madre label fuzzy"
+    },
+    {
+      "canonical_field_id": "CV2-2-15",
+      "canonical_key": "u_s_certificate_of_financial_responsibility_cofr",
+      "source_label": "U.S. Certificate of Financial Responsibility (COFR):",
+      "source_trace_primary": "PVQ+Q88!B235",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-2-16",
+      "canonical_key": "certificate_of_class_coc",
+      "source_label": "Certificate of Class (COC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B175",
+      "madre_value": "Jan 07, 2023",
+      "match_source": "Madre label fuzzy"
+    },
+    {
+      "canonical_field_id": "CV2-2-17",
+      "canonical_key": "certificate_of_registry_cor",
+      "source_label": "Certificate of Registry (COR)",
+      "source_trace_primary": "PVQ+Q88 Clean!B176",
+      "madre_value": "59.81 Metres",
+      "match_source": "Madre de Deus row 176"
+    },
+    {
+      "canonical_field_id": "CV2-2-18",
+      "canonical_key": "international_sewage_pollution_prevention_certificate_isppc",
+      "source_label": "International Sewage Pollution Prevention Certificate (ISPPC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B177",
+      "madre_value": "59.81 Metres",
+      "match_source": "Madre de Deus row 177"
+    },
+    {
+      "canonical_field_id": "CV2-2-19",
+      "canonical_key": "certificate_of_fitness_cof",
+      "source_label": "Certificate of Fitness (COF):",
+      "source_trace_primary": "PVQ+Q88 Clean!B178",
+      "madre_value": "59.80 Metres",
+      "match_source": "Madre de Deus row 178"
+    },
+    {
+      "canonical_field_id": "CV2-2-2-CERTIFICATES-AAE0",
+      "canonical_key": "international_energy_efficiency_certificate_ieec",
+      "source_label": "International Energy Efficiency Certificate (IEEC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B179",
+      "madre_value": "50.95 Metres",
+      "match_source": "Madre de Deus row 179"
+    },
+    {
+      "canonical_field_id": "CV2-2-2-CERTIFICATES-F231",
+      "canonical_key": "safety_radio_certificate_src",
+      "source_label": "Safety Radio Certificate (SRC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B163",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-2-21",
+      "canonical_key": "international_air_pollution_prevention_certificate_iappc",
+      "source_label": "International Air Pollution Prevention Certificate (IAPPC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B180",
+      "madre_value": "57.59 Metres",
+      "match_source": "Madre de Deus row 180"
+    },
+    {
+      "canonical_field_id": "CV2-2-22",
+      "canonical_key": "ship_sanitation_control_sscc_ship_sanitation_control_exemption_ssce",
+      "source_label": "Ship Sanitation Control (SSCC)/Ship Sanitation Control Exemption (SSCE)",
+      "source_trace_primary": "PVQ+Q88 Clean!B181",
+      "madre_value": "73.14 Metres",
+      "match_source": "Madre de Deus row 181"
+    },
+    {
+      "canonical_field_id": "CV2-2-23",
+      "canonical_key": "does_the_vessel_have_an_international_ballast_water_management_certifica_f508",
+      "source_label": "Does the vessel have an International Ballast Water Management Certificate? If no, then describe how ship complies with the \"International Convention for the Control and Management of Ships' Ballast Water and Sediments\"?:",
+      "source_trace_primary": "PVQ+Q88 Clean!B182",
+      "madre_value": "7.24 Metres",
+      "match_source": "Madre de Deus row 182"
+    },
+    {
+      "canonical_field_id": "CV2-2-24",
+      "canonical_key": "owner_warrant_that_vessel_is_member_of_itopf_and_will_remain_so_for_the",
+      "source_label": "Owner warrant that vessel is member of ITOPF and will remain so for the entire duration of this voyage/contract:",
+      "source_trace_primary": "Modelo!B283",
+      "madre_value": "Mar 27, 2026",
+      "match_source": "Madre de Deus row 283"
+    },
+    {
+      "canonical_field_id": "CV2-2-25",
+      "canonical_key": "does_vessel_have_in_place_a_drug_and_alcohol_policy_complying_with_ocimf",
+      "source_label": "Does vessel have in place a Drug and Alcohol Policy complying with OCIMF guidelines for Control of Drugs and Alcohol Onboard Ship?",
+      "source_trace_primary": "Modelo!B284",
+      "madre_value": "Sep 27, 2026",
+      "match_source": "Madre de Deus row 284"
+    },
+    {
+      "canonical_field_id": "CV2-2-26",
+      "canonical_key": "is_the_itf_special_agreement_on_board_if_applicable",
+      "source_label": "Is the ITF Special Agreement on board (if applicable)?",
+      "source_trace_primary": "PVQ+Q88!B247",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre de Deus row 247"
+    },
+    {
+      "canonical_field_id": "CV2-2-27",
+      "canonical_key": "itf_blue_card_expiry_date_if_applicable",
+      "source_label": "ITF Blue Card expiry date (if applicable):",
+      "source_trace_primary": "PVQ+Q88!B248",
+      "madre_value": "Jun 17, 2025",
+      "match_source": "Madre de Deus row 248"
+    },
+    {
+      "canonical_field_id": "CV2-2-3-CERTIFICATES-8F3E",
+      "canonical_key": "safety_construction_certificate_scc",
+      "source_label": "Safety Construction Certificate (SCC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B164",
+      "madre_value": "Jan 07, 2023",
+      "match_source": "Madre label fuzzy"
+    },
+    {
+      "canonical_field_id": "CV2-2-4-CERTIFICATES-6533",
+      "canonical_key": "international_loadline_certificate_ilc",
+      "source_label": "International Loadline Certificate (ILC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B165",
+      "madre_value": "244.75 Metres",
+      "match_source": "Madre de Deus row 165"
+    },
+    {
+      "canonical_field_id": "CV2-2-5-CERTIFICATES-4BF0",
+      "canonical_key": "international_oil_pollution_prevention_certificate_ioppc",
+      "source_label": "International Oil Pollution Prevention Certificate (IOPPC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B166",
+      "madre_value": "233.00 Metres",
+      "match_source": "Madre de Deus row 166"
+    },
+    {
+      "canonical_field_id": "CV2-2-6-CERTIFICATES-A37F",
+      "canonical_key": "international_ship_security_certificate_issc",
+      "source_label": "International Ship Security Certificate (ISSC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B167",
+      "madre_value": "42.00 Metres",
+      "match_source": "Madre de Deus row 167"
+    },
+    {
+      "canonical_field_id": "CV2-2-7-CERTIFICATES-307E",
+      "canonical_key": "maritime_labour_certificate_mlc",
+      "source_label": "Maritime Labour Certificate (MLC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B168",
+      "madre_value": "22.50 Metres",
+      "match_source": "Madre de Deus row 168"
+    },
+    {
+      "canonical_field_id": "CV2-2-8",
+      "canonical_key": "minimum_safe_manning_certificate_msm",
+      "source_label": "Minimum Safe Manning Certificate (MSM)",
+      "source_trace_primary": "PVQ+Q88 Clean!B169",
+      "madre_value": "52.64 Metres",
+      "match_source": "Madre de Deus row 169"
+    },
+    {
+      "canonical_field_id": "CV2-2-9",
+      "canonical_key": "ism_safety_management_certificate_smc",
+      "source_label": "ISM Safety Management Certificate (SMC):",
+      "source_trace_primary": "PVQ+Q88 Clean!B170",
+      "madre_value": "69.60 Metres",
+      "match_source": "Madre de Deus row 170"
+    },
+    {
+      "canonical_field_id": "CV2-3-1-CREW_COMPETENCE-AEAF",
+      "canonical_key": "is_the_crew_training_policy_following_the_latest_guidelines_from_e_g_imc",
+      "source_label": "Is the crew training policy following the latest guidelines from e.g. IMCA M117 \"Training and Experience of Key DP Personnel\" and/or DNV GL-ST-0023 \"Competence of Dynamic Positioning Operators?",
+      "source_trace_primary": "Modelo!B26",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 26"
+    },
+    {
+      "canonical_field_id": "CV2-3-1-IS_THE_CREW_TRAINI-081E",
+      "canonical_key": "is_the_crew_training_policy_following_the_latest_guidelines_from_e_g_imc_081e",
+      "source_label": "Is the crew training policy following the latest guidelines from e.g. IMCA M117 \"Training and Experience of Key DP Personnel\" and/or DNV GL-ST-0023 \"Competence of Dynamic Positioning Operators? (Yes/No)",
+      "source_trace_primary": "PVQ+Q88 Clean!B38",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 38"
+    },
+    {
+      "canonical_field_id": "CV2-30-1",
+      "canonical_key": "safety_equipment_certificate_date_issued",
+      "source_label": "Safety Equipment Certificate - Date Issued",
+      "source_trace_primary": "Modelo!B232",
+      "madre_value": "0 metres",
+      "match_source": "Madre de Deus row 232"
+    },
+    {
+      "canonical_field_id": "CV2-30-10",
+      "canonical_key": "international_loadline_certificate_ilc_date_issued",
+      "source_label": "International Loadline Certificate (ILC) - Date Issued",
+      "source_trace_primary": "Modelo!B241",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre de Deus row 241"
+    },
+    {
+      "canonical_field_id": "CV2-30-11",
+      "canonical_key": "international_loadline_certificate_ilc_date_of_last_annual",
+      "source_label": "International Loadline Certificate (ILC) - Date of Last Annual",
+      "source_trace_primary": "Modelo!B242",
+      "madre_value": "Jan 07, 2023",
+      "match_source": "Madre de Deus row 242"
+    },
+    {
+      "canonical_field_id": "CV2-30-12",
+      "canonical_key": "international_loadline_certificate_ilc_expiry_date",
+      "source_label": "International Loadline Certificate (ILC) - Expiry Date",
+      "source_trace_primary": "Modelo!B243",
+      "madre_value": "Dec 02, 2025",
+      "match_source": "Madre de Deus row 243"
+    },
+    {
+      "canonical_field_id": "CV2-30-13",
+      "canonical_key": "international_oil_pollution_prevention_certificate_ioppc_date_issued",
+      "source_label": "International Oil Pollution Prevention Certificate (IOPPC) - Date Issued",
+      "source_trace_primary": "Modelo!B244",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre de Deus row 244"
+    },
+    {
+      "canonical_field_id": "CV2-30-14",
+      "canonical_key": "international_oil_pollution_prevention_certificate_ioppc_date_of_last_an",
+      "source_label": "International Oil Pollution Prevention Certificate (IOPPC) - Date of Last Annual",
+      "source_trace_primary": "Modelo!B245",
+      "madre_value": "Jun 17, 2025",
+      "match_source": "Madre de Deus row 245"
+    },
+    {
+      "canonical_field_id": "CV2-30-15-CERTIFICATES-DF1B",
+      "canonical_key": "international_oil_pollution_prevention_certificate_ioppc_last_intermedia",
+      "source_label": "International Oil Pollution Prevention Certificate (IOPPC) - Last Intermediate Date",
+      "source_trace_primary": "Madre de Deus!B250",
+      "madre_value": "Dec 02, 2025",
+      "match_source": "Madre de Deus row 250"
+    },
+    {
+      "canonical_field_id": "CV2-30-16",
+      "canonical_key": "international_oil_pollution_prevention_certificate_ioppc_expiry_date",
+      "source_label": "International Oil Pollution Prevention Certificate (IOPPC) - Expiry Date",
+      "source_trace_primary": "Modelo!B246",
+      "madre_value": "Not Applicable",
+      "match_source": "Madre de Deus row 246"
+    },
+    {
+      "canonical_field_id": "CV2-30-17",
+      "canonical_key": "international_ship_security_certificate_issc_date_issued",
+      "source_label": "International Ship Security Certificate (ISSC) - Date Issued",
+      "source_trace_primary": "Modelo!B248",
+      "madre_value": "Jun 17, 2025",
+      "match_source": "Madre de Deus row 248"
+    },
+    {
+      "canonical_field_id": "CV2-30-18",
+      "canonical_key": "international_ship_security_certificate_issc_date_of_last_annual",
+      "source_label": "International Ship Security Certificate (ISSC) - Date of Last Annual",
+      "source_trace_primary": "Modelo!B249",
+      "madre_value": "Not Applicable",
+      "match_source": "Madre de Deus row 249"
+    },
+    {
+      "canonical_field_id": "CV2-30-19",
+      "canonical_key": "international_ship_security_certificate_issc_expiry_date",
+      "source_label": "International Ship Security Certificate (ISSC) - Expiry Date",
+      "source_trace_primary": "Modelo!B250",
+      "madre_value": "Dec 02, 2025",
+      "match_source": "Madre de Deus row 250"
+    },
+    {
+      "canonical_field_id": "CV2-30-2",
+      "canonical_key": "safety_equipment_certificate_date_of_last_annual",
+      "source_label": "Safety Equipment Certificate - Date of Last Annual",
+      "source_trace_primary": "Modelo!B233",
+      "madre_value": "Dec 02, 2025",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-30-20",
+      "canonical_key": "maritime_labour_certificate_mlc_date_issued",
+      "source_label": "Maritime Labour Certificate (MLC) - Date Issued",
+      "source_trace_primary": "Modelo!B251",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre de Deus row 251"
+    },
+    {
+      "canonical_field_id": "CV2-30-21",
+      "canonical_key": "maritime_labour_certificate_mlc_expiry_date",
+      "source_label": "Maritime Labour Certificate (MLC) - Expiry Date",
+      "source_trace_primary": "Modelo!B252",
+      "madre_value": "Jun 13, 2024",
+      "match_source": "Madre de Deus row 252"
+    },
+    {
+      "canonical_field_id": "CV2-30-22",
+      "canonical_key": "minimum_safe_manning_certificate_msm_date_issued",
+      "source_label": "Minimum Safe Manning Certificate (MSM) - Date Issued",
+      "source_trace_primary": "Modelo!B253",
+      "madre_value": "Not Applicable",
+      "match_source": "Madre de Deus row 253"
+    },
+    {
+      "canonical_field_id": "CV2-30-23",
+      "canonical_key": "minimum_safe_manning_certificate_msm_expiry_date",
+      "source_label": "Minimum Safe Manning Certificate (MSM) - Expiry Date",
+      "source_trace_primary": "Modelo!B254",
+      "madre_value": "Jul 05, 2029",
+      "match_source": "Madre de Deus row 254"
+    },
+    {
+      "canonical_field_id": "CV2-30-24",
+      "canonical_key": "ism_safety_management_certificate_smc_date_issued",
+      "source_label": "ISM Safety Management Certificate (SMC) - Date Issued",
+      "source_trace_primary": "Modelo!B255",
+      "madre_value": "Jul 15, 2025",
+      "match_source": "Madre de Deus row 255"
+    },
+    {
+      "canonical_field_id": "CV2-30-25",
+      "canonical_key": "ism_safety_management_certificate_smc_expiry_date",
+      "source_label": "ISM Safety Management Certificate (SMC) - Expiry Date",
+      "source_trace_primary": "Modelo!B256",
+      "madre_value": "Jul 05, 2029",
+      "match_source": "Madre de Deus row 256"
+    },
+    {
+      "canonical_field_id": "CV2-30-26",
+      "canonical_key": "document_of_compliance_doc_date_issued",
+      "source_label": "Document of Compliance (DOC) - Date Issued",
+      "source_trace_primary": "Modelo!B257",
+      "madre_value": "Feb 07, 2024",
+      "match_source": "Madre de Deus row 257"
+    },
+    {
+      "canonical_field_id": "CV2-30-27",
+      "canonical_key": "document_of_compliance_doc_expiry_date",
+      "source_label": "Document of Compliance (DOC) - Expiry Date",
+      "source_trace_primary": "Modelo!B258",
+      "madre_value": "Feb 06, 2029",
+      "match_source": "Madre de Deus row 258"
+    },
+    {
+      "canonical_field_id": "CV2-30-28",
+      "canonical_key": "civil_liability_convention_clc_1992_certificate_date_issued",
+      "source_label": "Civil Liability Convention (CLC) 1992 Certificate:- Date Issued",
+      "source_trace_primary": "Modelo!B259",
+      "madre_value": "Jun 13, 2024",
+      "match_source": "Madre de Deus row 259"
+    },
+    {
+      "canonical_field_id": "CV2-30-29",
+      "canonical_key": "civil_liability_convention_clc_1992_certificate_expiry_date",
+      "source_label": "Civil Liability Convention (CLC) 1992 Certificate: - Expiry Date",
+      "source_trace_primary": "Modelo!B260",
+      "madre_value": "Jul 05, 2029",
+      "match_source": "Madre de Deus row 260"
+    },
+    {
+      "canonical_field_id": "CV2-30-3",
+      "canonical_key": "safety_equipment_certificate_expiry_date",
+      "source_label": "Safety Equipment Certificate - Expiry Date",
+      "source_trace_primary": "Modelo!B234",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-30-32",
+      "canonical_key": "civil_liability_for_bunker_oil_pollution_damage_convention_clbc_certific",
+      "source_label": "Civil Liability for Bunker Oil Pollution Damage Convention (CLBC) Certificate: - Date Issued",
+      "source_trace_primary": "Modelo!B263",
+      "madre_value": "Feb 20, 2026",
+      "match_source": "Madre de Deus row 263"
+    },
+    {
+      "canonical_field_id": "CV2-30-33",
+      "canonical_key": "civil_liability_for_bunker_oil_pollution_damage_convention_clbc_certific_5a05",
+      "source_label": "Civil Liability for Bunker Oil Pollution Damage Convention (CLBC) Certificate: - Expiry Date",
+      "source_trace_primary": "Modelo!B264",
+      "madre_value": "Feb 20, 2027",
+      "match_source": "Madre de Deus row 264"
+    },
+    {
+      "canonical_field_id": "CV2-30-34",
+      "canonical_key": "liability_for_the_removal_of_wrecks_certificate_wrc_date_issued",
+      "source_label": "Liability for the Removal of Wrecks Certificate (WRC): - Date Issued",
+      "source_trace_primary": "Modelo!B265",
+      "madre_value": "Feb 04, 2026",
+      "match_source": "Madre de Deus row 265"
+    },
+    {
+      "canonical_field_id": "CV2-30-35",
+      "canonical_key": "liability_for_the_removal_of_wrecks_certificate_wrc_expiry_date",
+      "source_label": "Liability for the Removal of Wrecks Certificate (WRC): - Expiry Date",
+      "source_trace_primary": "Modelo!B266",
+      "madre_value": "Feb 20, 2027",
+      "match_source": "Madre de Deus row 266"
+    },
+    {
+      "canonical_field_id": "CV2-30-36",
+      "canonical_key": "certificate_of_class_coc_date_issued",
+      "source_label": "Certificate of Class (COC): - Date Issued",
+      "source_trace_primary": "Modelo!B267",
+      "madre_value": "Feb 04, 2026",
+      "match_source": "Madre de Deus row 267"
+    },
+    {
+      "canonical_field_id": "CV2-30-37",
+      "canonical_key": "certificate_of_class_coc_expiry_date",
+      "source_label": "Certificate of Class (COC): - Expiry Date",
+      "source_trace_primary": "Modelo!B268",
+      "madre_value": "Feb 20, 2027",
+      "match_source": "Madre de Deus row 268"
+    },
+    {
+      "canonical_field_id": "CV2-30-38",
+      "canonical_key": "certificate_of_registry_cor_date_issued",
+      "source_label": "Certificate of Registry (COR) - Date Issued",
+      "source_trace_primary": "Modelo!B269",
+      "madre_value": "Feb 04, 2026",
+      "match_source": "Madre de Deus row 269"
+    },
+    {
+      "canonical_field_id": "CV2-30-39",
+      "canonical_key": "certificate_of_registry_cor_expiry_date",
+      "source_label": "Certificate of Registry (COR) - Expiry Date",
+      "source_trace_primary": "Modelo!B270",
+      "madre_value": "Feb 20, 2027",
+      "match_source": "Madre de Deus row 270"
+    },
+    {
+      "canonical_field_id": "CV2-30-4",
+      "canonical_key": "safety_radio_certificate_date_issued",
+      "source_label": "Safety Radio Certificate - Date Issued",
+      "source_trace_primary": "Modelo!B235",
+      "madre_value": "Aug 29, 2022",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-30-40",
+      "canonical_key": "international_sewage_pollution_prevention_certificate_isppc_date_issued",
+      "source_label": "International Sewage Pollution Prevention Certificate (ISPPC): - Date Issued",
+      "source_trace_primary": "Modelo!B271",
+      "madre_value": "Jan 07, 2023",
+      "match_source": "Madre de Deus row 271"
+    },
+    {
+      "canonical_field_id": "CV2-30-41",
+      "canonical_key": "international_sewage_pollution_prevention_certificate_isppc_expiry_date",
+      "source_label": "International Sewage Pollution Prevention Certificate (ISPPC): - Expiry Date",
+      "source_trace_primary": "Modelo!B272",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre de Deus row 272"
+    },
+    {
+      "canonical_field_id": "CV2-30-42",
+      "canonical_key": "certificate_of_fitness_cof_date_issued",
+      "source_label": "Certificate of Fitness (COF): - Date Issued",
+      "source_trace_primary": "Modelo!B273",
+      "madre_value": "Jan 23, 2013",
+      "match_source": "Madre de Deus row 273"
+    },
+    {
+      "canonical_field_id": "CV2-30-43",
+      "canonical_key": "certificate_of_fitness_cof_expiry_date",
+      "source_label": "Certificate of Fitness (COF): - Expiry Date",
+      "source_trace_primary": "Modelo!B274",
+      "madre_value": "Not Applicable",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-30-44",
+      "canonical_key": "international_energy_efficiency_certificate_ieec_date_issued",
+      "source_label": "International Energy Efficiency Certificate (IEEC): - Date Issued",
+      "source_trace_primary": "Modelo!B275",
+      "madre_value": "Jan 07, 2023",
+      "match_source": "Madre de Deus row 275"
+    },
+    {
+      "canonical_field_id": "CV2-30-45",
+      "canonical_key": "international_energy_efficiency_certificate_ieec_expiry_date",
+      "source_label": "International Energy Efficiency Certificate (IEEC): - Expiry Date",
+      "source_trace_primary": "Modelo!B276",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre de Deus row 276"
+    },
+    {
+      "canonical_field_id": "CV2-30-46",
+      "canonical_key": "international_air_pollution_prevention_certificate_iappc_date_issued",
+      "source_label": "International Air Pollution Prevention Certificate (IAPPC): - Date Issued",
+      "source_trace_primary": "Modelo!B277",
+      "madre_value": "Not Applicable",
+      "match_source": "Madre de Deus row 277"
+    },
+    {
+      "canonical_field_id": "CV2-30-47",
+      "canonical_key": "international_air_pollution_prevention_certificate_iappc_expiry_date",
+      "source_label": "International Air Pollution Prevention Certificate (IAPPC): - Expiry Date",
+      "source_trace_primary": "Modelo!B278",
+      "madre_value": "Not Applicable",
+      "match_source": "Madre de Deus row 278"
+    },
+    {
+      "canonical_field_id": "CV2-30-48",
+      "canonical_key": "ship_sanitation_control_sscc_ship_sanitation_control_exemption_ssce_date",
+      "source_label": "Ship Sanitation Control (SSCC)/Ship Sanitation Control Exemption (SSCE) - Date Issued",
+      "source_trace_primary": "Modelo!B279",
+      "madre_value": "Mar 27, 2026",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-30-49",
+      "canonical_key": "ship_sanitation_control_sscc_ship_sanitation_control_exemption_ssce_expi",
+      "source_label": "Ship Sanitation Control (SSCC)/Ship Sanitation Control Exemption (SSCE) - Expiry Date",
+      "source_trace_primary": "Modelo!B280",
+      "madre_value": "N/A",
+      "match_source": "Madre de Deus row 280"
+    },
+    {
+      "canonical_field_id": "CV2-30-5",
+      "canonical_key": "safety_radio_certificate_date_of_last_annual",
+      "source_label": "Safety Radio Certificate - Date of Last Annual",
+      "source_trace_primary": "Modelo!B236",
+      "madre_value": "Feb 27, 2023",
+      "match_source": "Madre de Deus row 236"
+    },
+    {
+      "canonical_field_id": "CV2-30-50",
+      "canonical_key": "does_the_vessel_have_an_international_ballast_water_management_certifica",
+      "source_label": "Does the vessel have an International Ballast Water Management Certificate?",
+      "source_trace_primary": "Modelo!B281",
+      "madre_value": "Jun 17, 2025",
+      "match_source": "Madre de Deus row 281"
+    },
+    {
+      "canonical_field_id": "CV2-30-51",
+      "canonical_key": "if_the_vessel_does_not_have_an_international_ballast_water_management_ce",
+      "source_label": "if the vessel does not have an International Ballast Water Management Certificate, describe how the ship complies with the \"International Convention for the Control and Management of Ships' Ballast Water and Sediments\"",
+      "source_trace_primary": "Modelo!B282",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre de Deus row 282"
+    },
+    {
+      "canonical_field_id": "CV2-30-54",
+      "canonical_key": "crew_does_someone_who_works_on_the_deck_know_english_or_portuguese",
+      "source_label": "CREW - Does someone who works on the deck know English or Portuguese?",
+      "source_trace_primary": "Modelo!B285",
+      "madre_value": "Yes",
+      "match_source": "Madre de Deus row 285"
+    },
+    {
+      "canonical_field_id": "CV2-30-6",
+      "canonical_key": "safety_radio_certificate_expiry_date",
+      "source_label": "Safety Radio Certificate - Expiry Date",
+      "source_trace_primary": "Modelo!B237",
+      "madre_value": "Dec 02, 2025",
+      "match_source": "Madre de Deus row 237"
+    },
+    {
+      "canonical_field_id": "CV2-30-7",
+      "canonical_key": "safety_construction_certificate_scc_date_issued",
+      "source_label": "Safety Construction Certificate (SCC) - Date Issued",
+      "source_trace_primary": "Modelo!B238",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre de Deus row 238"
+    },
+    {
+      "canonical_field_id": "CV2-30-8",
+      "canonical_key": "safety_construction_certificate_scc_date_of_last_annual",
+      "source_label": "Safety Construction Certificate (SCC) - Date of Last Annual",
+      "source_trace_primary": "Modelo!B239",
+      "madre_value": "Aug 29, 2022",
+      "match_source": "Madre de Deus row 239"
+    },
+    {
+      "canonical_field_id": "CV2-30-9",
+      "canonical_key": "safety_construction_certificate_scc_expiry_date",
+      "source_label": "Safety Construction Certificate (SCC) - Expiry Date",
+      "source_trace_primary": "Modelo!B240",
+      "madre_value": "Nov 09, 2025",
+      "match_source": "Madre de Deus row 240"
+    },
+    {
+      "canonical_field_id": "CV2-4-1-FOR_USA_CALLS-9841",
+      "canonical_key": "has_the_vessel_operator_submitted_a_vessel_spill_response_plan_to_the_us",
+      "source_label": "Has the vessel Operator submitted a Vessel Spill Response Plan to the US Coast Guard which has been approved by official USCG letter?",
+      "source_trace_primary": "PVQ+Q88!B270",
+      "madre_value": "Feb 20, 2027",
+      "match_source": "Madre de Deus row 270"
+    },
+    {
+      "canonical_field_id": "CV2-8-3-POWER_GENERATION_M-BB33",
+      "canonical_key": "are_all_the_power_management_system_features_e_g_load_sharing_start_bloc",
+      "source_label": "Are all the Power Management System features (e.g. load sharing, start blocking heavy consumers, blackout prevention and blackout recovery) working properly?",
+      "source_trace_primary": "Modelo!B58",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 58"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-CAP_CERTIFICATES_QUANDO_APLICAVEL-C93F51",
+      "canonical_key": "cap_certificates_quando_aplicavel",
+      "source_label": "1. CAP Certificates (quando aplicável)",
+      "source_trace_primary": "LOG!A4",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-CERTIFICATE_OF_LIABILITY_FOR_THE_REM-65D8C4",
+      "canonical_key": "certificate_of_liability_for_the_removal_of_wrecks_2007_wrc",
+      "source_label": "6. Certificate of Liability for the Removal of Wrecks, 2007 (WRC)",
+      "source_trace_primary": "LOG!A9",
+      "madre_value": 46128,
+      "match_source": "Madre de Deus row 9"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-CLASS_STATUS_REPORT-0B5921",
+      "canonical_key": "class_status_report",
+      "source_label": "0.Class Status Report",
+      "source_trace_primary": "LOG!A2",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-DOC_ISM_CODE-4CFAB4",
+      "canonical_key": "doc_ism_code",
+      "source_label": "9. DOC (ISM Code)",
+      "source_trace_primary": "LOG!A12",
+      "madre_value": 46126,
+      "match_source": "Madre de Deus row 12"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-GENERAL_ARRANGEMENT_PLAN-6629FA",
+      "canonical_key": "general_arrangement_plan",
+      "source_label": "15. General Arrangement Plan",
+      "source_trace_primary": "LOG!A18",
+      "madre_value": "YES",
+      "match_source": "Madre de Deus row 18"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-IBWMC-199B15",
+      "canonical_key": "ibwmc",
+      "source_label": "7. IBWMC",
+      "source_trace_primary": "LOG!A10",
+      "madre_value": "Petrobras",
+      "match_source": "Madre de Deus row 10"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-ISSC_ISPS_CODE-3C4350",
+      "canonical_key": "issc_isps_code",
+      "source_label": "8. ISSC (ISPS Code)",
+      "source_trace_primary": "LOG!A11",
+      "madre_value": "P-38",
+      "match_source": "Madre de Deus row 11"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-ITF_AGREEMENT_CERTIFICATE_OR_OTHER_L-B23AB9",
+      "canonical_key": "itf_agreement_certificate_or_other_legally_similar_documents_certificate",
+      "source_label": "2. ITF Agreement Certificate or other legally similar documents/Certificates",
+      "source_trace_primary": "LOG!A5",
+      "madre_value": "N/A",
+      "match_source": "not_found_default_na"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-MOORING_ARRANGEMENT_PLAN-8566F7",
+      "canonical_key": "mooring_arrangement_plan",
+      "source_label": "14. Mooring Arrangement Plan",
+      "source_trace_primary": "LOG!A17",
+      "madre_value": "ABS",
+      "match_source": "Madre de Deus row 17"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-P_I_COVER_CERTIFICATE-91F9AF",
+      "canonical_key": "p_i_cover_certificate",
+      "source_label": "3. P&I Cover Certificate",
+      "source_trace_primary": "LOG!A6",
+      "madre_value": 46133,
+      "match_source": "Madre de Deus row 6"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-SMC_ISM_CODE-DB94DB",
+      "canonical_key": "smc_ism_code",
+      "source_label": "10. SMC (ISM Code)",
+      "source_trace_primary": "LOG!A13",
+      "madre_value": "Petrobras",
+      "match_source": "Madre de Deus row 13"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-WHAT_TYPE_OF_FUEL_IS_USED_FOR_GENERA-414948",
+      "canonical_key": "what_type_of_fuel_is_used_for_generating_plant_4149",
+      "source_label": "What type of fuel is used for generating plant",
+      "source_trace_primary": "PVQ+Q88!E615",
+      "madre_value": "380 CST HFO",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "CV2-NOCODE-WHAT_TYPE_OF_FUEL_IS_USED_FOR_GENERA-7DCBFC",
+      "canonical_key": "what_type_of_fuel_is_used_for_generating_plant_7dcb",
+      "source_label": "What type of fuel is used for generating plant",
+      "source_trace_primary": "Certificados!E520",
+      "madre_value": "380 CST HFO",
+      "match_source": "Madre label exact"
+    },
+    {
+      "canonical_field_id": "VF-3-1",
+      "canonical_key": "nationality_of_master",
+      "source_label": "Nationality of Master:",
+      "source_trace_primary": "Q88 Rev.1!E158",
+      "madre_value": "Nov 29, 2026",
+      "match_source": "Madre de Deus row 158"
+    },
+    {
+      "canonical_field_id": "VF-3-1-87D8",
+      "canonical_key": "nationality_of_master_87d8",
+      "source_label": "Nationality of Master:",
+      "source_trace_primary": "PVQ+Q88!B251",
+      "madre_value": "Aug 29, 2027",
+      "match_source": "Madre de Deus row 251"
+    }
+  ]
+}

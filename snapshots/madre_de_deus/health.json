@@ -1,0 +1,6 @@
+{
+  "service": "pvq-next-operational-state",
+  "status": "ok",
+  "mode": "read_only",
+  "field_count": 75
+}

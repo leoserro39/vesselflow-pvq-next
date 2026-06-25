@@ -1,0 +1,89 @@
+{
+  "input_control": [
+    "Dropdown",
+    "Free Text",
+    "Number",
+    "Date",
+    "Currency/Text",
+    "Derived"
+  ],
+  "field_type": [
+    "text",
+    "number",
+    "date_us",
+    "enum",
+    "currency_text",
+    "derived_status"
+  ],
+  "yes_no_na": [
+    "Yes",
+    "No",
+    "N/A",
+    "Pending",
+    "Review"
+  ],
+  "readiness": [
+    "OK",
+    "Not OK",
+    "N/A",
+    "Pending",
+    "Review"
+  ],
+  "document_status": [
+    "Valid",
+    "Expired",
+    "Missing",
+    "N/A",
+    "Review"
+  ],
+  "gate": [
+    "OK",
+    "Ready",
+    "Blocked",
+    "Review",
+    "Management Arbitration",
+    "Pending",
+    "N/A"
+  ],
+  "cycle_window_status": [
+    "N/A",
+    "Valid through cutoff",
+    "Expires in closing buffer",
+    "Expires in work month",
+    "Expired before cycle",
+    "N/A - Check applicability",
+    "Missing date"
+  ],
+  "engineering_action": [
+    "Accept",
+    "Monitor gate",
+    "Validate derived rule",
+    "Review evidence/rule",
+    "Naval review required",
+    "Validate document gate",
+    "Review before nomination"
+  ],
+  "review_route": [
+    "AUTO_SYSTEM_RULE",
+    "HUMAN_DATA_REVIEW",
+    "NAVAL_CONSULTANT_REVIEW",
+    "MQP_REVIEW",
+    "MANAGEMENT_ARBITRATION",
+    "BUSINESS_POLICY_DECISION",
+    "STATE_ARBITRATION_REQUIRED"
+  ],
+  "confidence": [
+    "Alta",
+    "Média",
+    "Baixa",
+    "Sem fonte"
+  ],
+  "nomination_status": [
+    "Pre-apt with controlled review",
+    "Ready for nomination",
+    "Blocked",
+    "Technical review",
+    "Management arbitration",
+    "Pending"
+  ]
+}

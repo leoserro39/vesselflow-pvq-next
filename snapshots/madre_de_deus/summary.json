@@ -1,0 +1,48 @@
+{
+  "state_id": "9feabb3fa9db4502907d290edc992df1",
+  "vessel": {
+    "name": "MADRE DE DEUS",
+    "imo": "4169250",
+    "flag": "Bahamas",
+    "type": "Oil Tanker",
+    "operation_type": "Offshore Loading",
+    "profile": "DPST"
+  },
+  "operational_window": {
+    "anchor_month": "January 2026",
+    "cycle_start": "01/25/2026",
+    "work_close": "02/25/2026",
+    "operational_cutoff": "03/05/2026"
+  },
+  "operational_state": {
+    "final_operational_state": "PRE_APT_WITH_TECHNICAL_REVIEW",
+    "can_proceed": true,
+    "can_nominate_candidate": true,
+    "automatic_nomination": false,
+    "technical_release_required": true,
+    "controlled_review_items": [
+      {
+        "field_id": "vessel.open_conditions_class",
+        "answer": "Sim",
+        "state": "NAVAL_REVIEW_REQUIRED",
+        "route": "NAVAL_CONSULTANT_REVIEW"
+      },
+      {
+        "field_id": "docs.itf_blue_card_expiry",
+        "answer": "06/17/2025",
+        "state": "EXPIRED_BEFORE_OPERATIONAL_WINDOW",
+        "route": "HUMAN_DATA_REVIEW"
+      },
+      {
+        "field_id": "docs.mooring_arrangement_plan",
+        "answer": "ABS",
+        "state": "REVIEW_REQUIRED",
+        "route": "HUMAN_DATA_REVIEW"
+      }
+    ]
+  },
+  "counts": {
+    "nomination_core_fields": 75,
+    "source_archive_fields": 392
+  }
+}

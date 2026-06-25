@@ -1,0 +1,605 @@
+{
+  "state_id": "9feabb3fa9db4502907d290edc992df1",
+  "evidence": [
+    {
+      "field_id": "vessel.name",
+      "answer": "MADRE DE DEUS",
+      "evidence_trace": "ship @ CURRENT_CANONICAL_CONTRACT",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "vessel.imo",
+      "answer": "4169250",
+      "evidence_trace": "imo @ CURRENT_CANONICAL_CONTRACT",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "vessel.flag",
+      "answer": "Bahamas",
+      "evidence_trace": "flag @ CURRENT_CANONICAL_CONTRACT",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "vessel.type",
+      "answer": "Oil Tanker",
+      "evidence_trace": "vessel_type @ CURRENT_CANONICAL_CONTRACT",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "vessel.operation_type",
+      "answer": "Offshore Loading",
+      "evidence_trace": "operation_type @ CURRENT_CANONICAL_CONTRACT",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "vessel.profile",
+      "answer": "DPST",
+      "evidence_trace": "application @ CURRENT_CANONICAL_CONTRACT",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "vessel.class_society",
+      "answer": "American Bureau of Shipping",
+      "evidence_trace": "classification_society @ Modelo!B142",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "vessel.class_notation",
+      "answer": "A1, BLU, Oil Carrier, AMS, ACCU, DPS-2, NBLES, VEC, TCM, BWE, CSR, SPMA (Add. Notation: POT, ESP, UWILD, CPS)",
+      "evidence_trace": "class_notation_552d @ Modelo!B144",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "vessel.open_conditions_class",
+      "answer": "Sim",
+      "evidence_trace": "does_the_vessel_have_any_open_conditions_of_class_if_yes_list_all_open_c @ Modelo!B145",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Média",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "vessel.memoranda_class",
+      "answer": "Não",
+      "evidence_trace": "does_the_vessel_have_any_memoranda_of_class @ Modelo!B149",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "vessel.ice_class",
+      "answer": "Não",
+      "evidence_trace": "does_the_vessel_have_ice_class @ Modelo!B153",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "vessel.owner",
+      "answer": "Viken Shuttle AS",
+      "evidence_trace": "registered_owner_full_style @ Modelo!B106",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "vessel.technical_operator",
+      "answer": "OSM Ship Management AS",
+      "evidence_trace": "technical_operator_full_style @ Modelo!B112",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "vessel.commercial_operator",
+      "answer": "Petroleo Brasileiro S.A.-Petrobras, Brazil",
+      "evidence_trace": "commercial_operator_full_style @ Modelo!B117",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "vessel.hull_type",
+      "answer": "Double Hull",
+      "evidence_trace": "type_of_hull @ Modelo!B103",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "vessel.loa",
+      "answer": "244.75 Metres",
+      "evidence_trace": "length_overall_loa @ Modelo!B164",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "vessel.deadweight",
+      "answer": "53,899.00 Metric Tonnes",
+      "evidence_trace": "loadline_deadweight_fwa_tpc_at_summer_draf @ Modelo!B219",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "operation.cargo_type",
+      "answer": "Offshore Loading",
+      "evidence_trace": "operation_type @ CURRENT_CANONICAL_CONTRACT",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "operation.offshore_loading_capable",
+      "answer": "Sim",
+      "evidence_trace": "operation_type @ CURRENT_CANONICAL_CONTRACT | application @ CURRENT_CANONICAL_CONTRACT",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "operation.rtu_fpso_link",
+      "answer": "Sim",
+      "evidence_trace": "is_the_rtu_radio_link_available_to_communicate_with_fpso @ Modelo!B43",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "operation.hose_handling_system",
+      "answer": "OK",
+      "evidence_trace": "is_the_hose_handling_system_working_properly @ Modelo!B36",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "operation.hose_coupler",
+      "answer": "OK",
+      "evidence_trace": "is_the_hose_coupler_working_properly_and_without_any_evidences_of_leakag @ Modelo!B37",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "operation.hawser_handling",
+      "answer": "OK",
+      "evidence_trace": "is_the_hawser_handling_system_roller_fairlead_and_chain_stopper_operatio @ Modelo!B38",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "operation.hawser_loading_cell",
+      "answer": "OK",
+      "evidence_trace": "is_the_hawser_loading_cell_calibrated_according_to_the_operational_limit @ Modelo!B39",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "operation.offloading_gate",
+      "answer": "OK",
+      "evidence_trace": "is_the_rtu_radio_link_available_to_communicate_with_fpso @ Modelo!B43 | is_the_hose_handling_system_working_properly @ Modelo!B36 | is_the_hose_coupler_working_properly_and_without_any_evidences_of_leakag @ Modelo!B37 | is_the_hawser_handling_system_roller_fairlead_and_chain_stopper_operatio @ Modelo!B38 | is_the_hawser_loading_cell_calibrated_according_to_the_operational_limit @ Modelo!B39",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "dp.capability",
+      "answer": "DPST",
+      "evidence_trace": "application @ CURRENT_CANONICAL_CONTRACT",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "dp.dgps_total",
+      "answer": 2,
+      "evidence_trace": "how_many_operational_dgps_systems_of_total @ Modelo!B61",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "dp.dgps_operational",
+      "answer": 2,
+      "evidence_trace": "how_many_operational_dgps_systems_of_operational @ Modelo!B62",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "dp.darps_total",
+      "answer": 2,
+      "evidence_trace": "how_many_operational_darps_systems_of_total @ Modelo!B63",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "dp.darps_operational",
+      "answer": 2,
+      "evidence_trace": "how_many_operational_darps_systems_of_operational @ Modelo!B64",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "dp.laser_total",
+      "answer": 1,
+      "evidence_trace": "how_many_operational_laser_systems_of_total @ Modelo!B65",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "dp.laser_operational",
+      "answer": 1,
+      "evidence_trace": "how_many_operational_laser_systems_of_operational @ Modelo!B66",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "dp.microwave_total",
+      "answer": 1,
+      "evidence_trace": "how_many_microwave_systems_of_total @ Modelo!B67",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "dp.microwave_operational",
+      "answer": 1,
+      "evidence_trace": "ow_many_microwave_systems_of_operational @ Modelo!B68",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "dp.interface_propulsion_icms_prs_bls",
+      "answer": "OK",
+      "evidence_trace": "is_the_dp_system_interfaced_with_propulsion_system_icms_prs_and_bls_e_g @ Modelo!B84",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "NAVAL_CONSULTANT_REVIEW"
+    },
+    {
+      "field_id": "dp.prs_gate",
+      "answer": "OK",
+      "evidence_trace": "how_many_operational_dgps_systems_of_operational @ Modelo!B62 | how_many_operational_darps_systems_of_operational @ Modelo!B64 | how_many_operational_laser_systems_of_operational @ Modelo!B66 | ow_many_microwave_systems_of_operational @ Modelo!B68 | is_the_dp_system_interfaced_with_propulsion_system_icms_prs_and_bls_e_g @ Modelo!B84",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Média",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "machinery.main_engines_status",
+      "answer": "OK",
+      "evidence_trace": "is_are_the_main_engine_s_working_properly @ Modelo!B46",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "MQP_REVIEW"
+    },
+    {
+      "field_id": "machinery.main_propeller_status",
+      "answer": "OK",
+      "evidence_trace": "is_are_the_main_propeller_s_working_properly @ Modelo!B47",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "MQP_REVIEW"
+    },
+    {
+      "field_id": "machinery.cpp_status",
+      "answer": "OK",
+      "evidence_trace": "is_are_the_cpp_controllable_pitch_system_s_working_properly @ Modelo!B48",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "MQP_REVIEW"
+    },
+    {
+      "field_id": "machinery.zps_status",
+      "answer": "OK",
+      "evidence_trace": "is_are_the_zps_zero_pitch_system_s_working_properly @ Modelo!B49",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "MQP_REVIEW"
+    },
+    {
+      "field_id": "machinery.rudder_status",
+      "answer": "OK",
+      "evidence_trace": "is_are_the_rudder_s_working_properly @ Modelo!B50",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "MQP_REVIEW"
+    },
+    {
+      "field_id": "machinery.bow_thruster_status",
+      "answer": "OK",
+      "evidence_trace": "are_the_bow_thrusters_and_their_auxiliary_systems_e_g_cpp_nfu_power_supp @ Modelo!B52",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "MQP_REVIEW"
+    },
+    {
+      "field_id": "machinery.stern_thruster_status",
+      "answer": "OK",
+      "evidence_trace": "are_the_stern_thrusters_and_their_auxiliary_systems_e_g_cpp_nfu_power_su @ Modelo!B53",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "MQP_REVIEW"
+    },
+    {
+      "field_id": "machinery.gensets_status",
+      "answer": "OK",
+      "evidence_trace": "are_all_the_gensets_including_its_instrumentation_control_and_automation @ Modelo!B56",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "MQP_REVIEW"
+    },
+    {
+      "field_id": "machinery.emergency_genset_status",
+      "answer": "OK",
+      "evidence_trace": "is_the_emergency_genset_including_its_instrumentation_control_and_automa @ Modelo!B57",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "MQP_REVIEW"
+    },
+    {
+      "field_id": "machinery.power_management_status",
+      "answer": "OK",
+      "evidence_trace": "are_all_the_power_management_system_features_e_g_load_sharing_start_bloc @ Modelo!B58",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "MQP_REVIEW"
+    },
+    {
+      "field_id": "machinery.readiness_gate",
+      "answer": "OK",
+      "evidence_trace": "is_are_the_main_engine_s_working_properly @ Modelo!B46 | is_are_the_main_propeller_s_working_properly @ Modelo!B47 | is_are_the_cpp_controllable_pitch_system_s_working_properly @ Modelo!B48 | is_are_the_zps_zero_pitch_system_s_working_properly @ Modelo!B49 | is_are_the_rudder_s_working_properly @ Modelo!B50 | are_the_bow_thrusters_and_their_auxiliary_systems_e_g_cpp_nfu_power_supp @ Modelo!B52 | are_the_stern_thrusters_and_their_auxiliary_systems_e_g_cpp_nfu_power_su @ Modelo!B53 | are_all_the_gensets_including_its_instrumentation_control_and_automation @ Modelo!B56 | is_the_emergency_genset_including_its_instrumentation_control_and_automa @ Modelo!B57 | are_all_the_power_management_system_features_e_g_load_sharing_start_bloc @ Modelo!B58",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "docs.pi_amount",
+      "answer": "1,000,000,000 US$ ",
+      "evidence_trace": "what_is_the_coverage_liability_amount_for_pollution_of_the_p_i_club_us @ Modelo!B135",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "docs.pi_expiry",
+      "answer": "02/20/2027",
+      "evidence_trace": "what_is_the_expiration_date_of_the_club_p_i_pollution_coverage_responsib @ Modelo!B136",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "docs.hm_underwriter",
+      "answer": "MAPFRE",
+      "evidence_trace": "hull_machinery_insured_by_full_style_specify_broker_or_leading_underwrit @ Modelo!B137",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "docs.hm_value",
+      "answer": "47,250,000 US$ (Hull and Machinery $47250000 Increased Value $11812500 Freight Interest $9937500 War Risks $63000000)",
+      "evidence_trace": "hull_machinery_insured_value_us @ Modelo!B138",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "docs.hm_expiry",
+      "answer": "11/30/2026",
+      "evidence_trace": "hull_machinery_insured_expiration_date @ Modelo!B139",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "docs.ship_sanitation_issue",
+      "answer": "03/27/2026",
+      "evidence_trace": "ship_sanitation_control_sscc_ship_sanitation_control_exemption_ssce_date @ Modelo!B279",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "docs.ship_sanitation_expiry",
+      "answer": "N/A",
+      "evidence_trace": "ship_sanitation_control_sscc_ship_sanitation_control_exemption_ssce_expi @ Modelo!B280",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "docs.itf_blue_card_expiry",
+      "answer": "06/17/2025",
+      "evidence_trace": "itf_blue_card_expiry_date_if_applicable @ PVQ+Q88!B248",
+      "evidence_type": "PVQ/Q88",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "docs.general_arrangement_plan",
+      "answer": "YES",
+      "evidence_trace": "general_arrangement_plan @ LOG!A18",
+      "evidence_type": "Document LOG",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "docs.mooring_arrangement_plan",
+      "answer": "ABS",
+      "evidence_trace": "mooring_arrangement_plan @ LOG!A17",
+      "evidence_type": "Document LOG",
+      "confidence": "Média",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "docs.document_validity_gate",
+      "answer": "Revisar",
+      "evidence_trace": "what_is_the_expiration_date_of_the_club_p_i_pollution_coverage_responsib @ Modelo!B136 | hull_machinery_insured_expiration_date @ Modelo!B139 | ship_sanitation_control_sscc_ship_sanitation_control_exemption_ssce_expi @ Modelo!B280 | itf_blue_card_expiry_date_if_applicable @ PVQ+Q88!B248 | general_arrangement_plan @ LOG!A18 | mooring_arrangement_plan @ LOG!A17",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Média",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "survey.last_annual_survey",
+      "answer": "12/02/2025",
+      "evidence_trace": "date_of_last_annual_survey_if_applicable @ Modelo!B23",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "survey.last_dry_dock",
+      "answer": "12/28/2022",
+      "evidence_trace": "date_of_last_dry_dock @ Modelo!B155",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "survey.next_dry_dock_due",
+      "answer": "08/29/2027",
+      "evidence_trace": "date_next_dry_dock_due @ Modelo!B157",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "survey.next_annual_survey_due",
+      "answer": "11/29/2026",
+      "evidence_trace": "date_next_annual_survey_due @ Modelo!B158",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "survey.last_special_survey",
+      "answer": "01/28/2023",
+      "evidence_trace": "date_of_last_special_survey_next_special_survey_due @ Modelo!B159",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "inspection.last_sire",
+      "answer": "N/A",
+      "evidence_trace": "date_place_last_sire_inspection_79fc @ Q88 Rev.2!E588",
+      "evidence_type": "PVQ/Q88",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "inspection.last_cdi",
+      "answer": "N/A",
+      "evidence_trace": "date_place_last_cdi_inspection @ Q88 Rev.2!E589",
+      "evidence_type": "PVQ/Q88",
+      "confidence": "Alta",
+      "review_route": "HUMAN_DATA_REVIEW"
+    },
+    {
+      "field_id": "inspection.vetting_gate",
+      "answer": "Revisar",
+      "evidence_trace": "date_place_last_sire_inspection_79fc @ Q88 Rev.2!E588 | date_place_last_cdi_inspection @ Q88 Rev.2!E589 | date_of_last_annual_survey_if_applicable @ Modelo!B23 | date_next_dry_dock_due @ Modelo!B157 | date_next_annual_survey_due @ Modelo!B158",
+      "evidence_type": "Masterbook / Modelo",
+      "confidence": "Média",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "readiness.pending_count",
+      "answer": 0,
+      "evidence_trace": "state 9feabb / validação anterior",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "readiness.critical_count",
+      "answer": 0,
+      "evidence_trace": "state 9feabb / validação anterior",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "readiness.warning_count",
+      "answer": 0,
+      "evidence_trace": "state 9feabb / validação anterior",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "readiness.human_review_required",
+      "answer": "Sim",
+      "evidence_trace": "Derivado desta planilha",
+      "evidence_type": "Derived / Consolidated",
+      "confidence": "Média",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "readiness.consultant_review_required",
+      "answer": "Sim",
+      "evidence_trace": "Derivado desta planilha",
+      "evidence_type": "Derived / Consolidated",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "readiness.management_arbitration_required",
+      "answer": "Não",
+      "evidence_trace": "Derivado desta planilha",
+      "evidence_type": "Derived / Consolidated",
+      "confidence": "Média",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "readiness.can_proceed",
+      "answer": "Sim",
+      "evidence_trace": "state 9feabb / validação anterior",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "readiness.can_nominate",
+      "answer": "Sim",
+      "evidence_trace": "state 9feabb / validação anterior",
+      "evidence_type": "State/API",
+      "confidence": "Alta",
+      "review_route": "AUTO_SYSTEM_RULE"
+    },
+    {
+      "field_id": "readiness.nomination_status",
+      "answer": "Pronto para nomeação",
+      "evidence_trace": "state + masterbook consolidado",
+      "evidence_type": "State/API",
+      "confidence": "Média",
+      "review_route": "AUTO_SYSTEM_RULE"
+    }
+  ]
+}
