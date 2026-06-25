@@ -27,6 +27,22 @@ def test_health_returns_ok():
     assert body["status"] == "ok"
 
 
+def test_menus_returns_controlled_values():
+    status_code, body = get_json("/api/v2/pvq-next/menus")
+
+    assert status_code == 200
+    assert "Dropdown" in body["input_control"]
+    assert "AUTO_SYSTEM_RULE" in body["review_route"]
+
+
+def test_operational_window_returns_cycle_rule():
+    status_code, body = get_json("/api/v2/pvq-next/operational-window")
+
+    assert status_code == 200
+    assert body["date_format"] == "MM/DD/YYYY"
+    assert body["cycle_rule"]["cycle_start_day"] == 25
+
+
 def test_summary_returns_madre_de_deus():
     status_code, body = get_json(f"{BASE_URL}/summary")
 
@@ -56,6 +72,45 @@ def test_evidence_returns_75_items():
 
     assert status_code == 200
     assert len(body["evidence"]) == 75
+
+
+def test_areas_returns_field_contract_groups():
+    status_code, body = get_json(f"{BASE_URL}/areas")
+
+    assert status_code == 200
+    assert body["state_id"] == STATE_ID
+    assert body["area_count"] == 8
+
+    area_ids = [area["area_id"] for area in body["areas"]]
+    assert area_ids == [
+        "identificacao",
+        "dimensoes",
+        "operacao",
+        "dp-fpso",
+        "maquinas",
+        "documentos",
+        "inspecoes-vetting",
+        "nomeacao",
+    ]
+
+    assert sum(area["field_count"] for area in body["areas"]) == 75
+    assert all(len(area["fields"]) == area["field_count"] for area in body["areas"])
+
+
+def test_area_returns_counts_and_fields():
+    status_code, body = get_json(f"{BASE_URL}/areas/identificacao")
+
+    assert status_code == 200
+    assert body["state_id"] == STATE_ID
+    assert body["area_id"] == "identificacao"
+    assert body["area_name"] == "Identificação"
+    assert body["field_count"] == 15
+    assert body["review_required_count"] == sum(
+        field["review_route"] != "AUTO_SYSTEM_RULE" for field in body["fields"]
+    )
+    assert body["blocking_or_potential_blocking_count"] == sum(
+        field["blocks_nomination"] in {"Sim", "Potencial"} for field in body["fields"]
+    )
 
 
 def test_full_archive_returns_392_items():

@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+import unicodedata
 from typing import Any
 
 from .loader import (
@@ -10,6 +12,39 @@ from .loader import (
     load_operational_window,
     load_source_392,
 )
+
+
+BLOCKING_OR_POTENTIAL_BLOCKING_VALUES = {"Sim", "Potencial"}
+SYSTEM_REVIEW_ROUTE = "AUTO_SYSTEM_RULE"
+
+
+def _area_id(area_name: str) -> str:
+    normalized = unicodedata.normalize("NFKD", area_name)
+    ascii_name = normalized.encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]+", "-", ascii_name.lower()).strip("-")
+
+
+def _area_payload(area_name: str, fields: list[dict[str, Any]]) -> dict[str, Any]:
+    return {
+        "area_id": _area_id(area_name),
+        "area_name": area_name,
+        "fields": fields,
+        "field_count": len(fields),
+        "review_required_count": sum(
+            field["review_route"] != SYSTEM_REVIEW_ROUTE for field in fields
+        ),
+        "blocking_or_potential_blocking_count": sum(
+            field["blocks_nomination"] in BLOCKING_OR_POTENTIAL_BLOCKING_VALUES
+            for field in fields
+        ),
+    }
+
+
+def _area_payloads() -> list[dict[str, Any]]:
+    grouped_fields: dict[str, list[dict[str, Any]]] = {}
+    for field in load_field_contract():
+        grouped_fields.setdefault(field["area"], []).append(field)
+    return [_area_payload(area_name, fields) for area_name, fields in grouped_fields.items()]
 
 
 def health() -> dict[str, Any]:
@@ -76,6 +111,25 @@ def full_archive(state_id: str) -> dict[str, Any]:
         "state_id": state_id,
         "source_392": load_source_392(),
     }
+
+
+def areas(state_id: str) -> dict[str, Any]:
+    area_payloads = _area_payloads()
+    return {
+        "state_id": state_id,
+        "areas": area_payloads,
+        "area_count": len(area_payloads),
+    }
+
+
+def area(state_id: str, area_id: str) -> dict[str, Any] | None:
+    for area_payload in _area_payloads():
+        if area_payload["area_id"] == area_id:
+            return {
+                "state_id": state_id,
+                **area_payload,
+            }
+    return None
 
 
 def menus() -> dict[str, Any]:
